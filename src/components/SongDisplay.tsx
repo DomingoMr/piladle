@@ -2,7 +2,7 @@ import { useRef, useState, useEffect, useMemo } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import type { DisneyMelody } from '../types';
 import { SongGuessBoard } from './SongGuessBoard';
-import rawMelodies from '../data/disney-songs.json';
+import rawMelodies from '../data/disney-pixar-songs.json';
 
 // Snippet duration in seconds per attempt index (0-based)
 const SNIPPET_DURATIONS = [3, 4.5, 6];

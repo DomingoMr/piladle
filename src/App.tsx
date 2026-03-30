@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import rawDataset from './data/disney-pixar-characters.json';
-import rawMelodies from './data/disney-songs.json';
+import rawMelodies from './data/disney-pixar-songs.json';
 import { GuessBoard } from './components/GuessBoard';
 import { SearchCombobox } from './components/SearchCombobox';
 import { Home, ModeButton } from './components/Home';
@@ -314,9 +314,8 @@ export default function App() {
               </button>
             </div>
             <div className="game-title-wrap">
-              <span className="game-mode">{getModeLabel()} · {formatDate()}</span>
               <div className="game-title">
-                <img src="/logo.png" alt="Mousdle - The daily character guessing challenge" className="game-logo" />
+                <img src="/logo.png" alt="Pixadle - The daily character guessing challenge" className="game-logo" />
               </div>
             </div>
             <div className="game-report-wrap" style={{ gridColumn: 3, justifySelf: 'end', alignSelf: 'start' }}>

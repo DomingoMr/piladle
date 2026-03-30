@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import rawMelodies from '../data/disney-songs.json';
+import rawMelodies from '../data/disney-pixar-songs.json';
 import type { DisneyMelody } from '../types';
 
 // Hacemos el casteo de los datos crudos a nuestra interfaz

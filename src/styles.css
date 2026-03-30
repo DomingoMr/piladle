@@ -44,7 +44,7 @@ body {
   margin: 0;
   min-width: 320px;
   color: var(--white);
-  font-family: 'Nunito', system-ui, sans-serif;
+  font-family: 'Fredoka', system-ui, sans-serif;
   background-color: #4C9EEB;
 }
 
@@ -139,14 +139,13 @@ img.home-logo {
 
 .game-logo {
   width: 1000px;
-  /* Tamaño del logo */
-  max-width: 100%;
+  max-width: 90vw;
   height: auto;
-  /* margin: -150px -120px;
-  margin-bottom: -200px;*/
   margin: -20% -120px;
-  margin-bottom: -28%;
-  filter: drop-shadow(0 0 15px rgba(179, 222, 255, 0.45)) drop-shadow(0 6px 24px rgba(2, 8, 19, 0.65));
+  margin-bottom: -35%;
+  background-color: transparent;
+  pointer-events: none;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.4));
 }
 
 .new-game-button {
@@ -861,6 +860,7 @@ img.character-avatar {
   margin: -20% -120px;
   margin-bottom: -35%;
   background-color: transparent;
+  pointer-events: none;
   filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.4));
 }
 
@@ -900,7 +900,6 @@ img.character-avatar {
 .mode-btn.is-active:hover {
   transform: scale(1.02);
   filter: brightness(1.05);
-  /* reduced brightness bump */
 }
 
 .mode-btn.is-active:hover .mode-content,
@@ -924,7 +923,7 @@ img.character-avatar {
   background: #ffffff;
   border: 4px solid #ED1C24;
   padding: 4px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 0 #D11018;
   flex-shrink: 0;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
@@ -949,14 +948,14 @@ img.character-avatar {
   height: 64px;
   background: #ffffff;
   border: 4px solid #ED1C24;
-  border-left: none;
-  border-radius: 0 16px 16px 0;
+  border-radius: 32px;
   margin-left: -20px;
   padding-left: 36px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   box-shadow: 0 6px 0 #D11018;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .mode-btn.is-locked .mode-icon-wrap {
@@ -1192,7 +1191,7 @@ img.character-avatar {
 }
 
 .silhouette-title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fredoka', sans-serif;
   font-size: 2.2rem;
   font-weight: 700;
   color: #fff;
@@ -1284,7 +1283,7 @@ img.character-avatar {
 }
 
 .check-title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fredoka', sans-serif;
   font-size: 2.5rem;
   color: #fff;
   text-align: center;
@@ -2011,7 +2010,7 @@ img.character-avatar {
 }
 
 .ranking-entry-text {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fredoka', sans-serif;
   font-size: 1.25rem;
   color: #fffacd;
   margin-bottom: 20px;
@@ -2061,7 +2060,7 @@ img.character-avatar {
 }
 
 .ranking-results-title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fredoka', sans-serif;
   font-size: 1.5rem;
   color: #ffd700;
   margin-bottom: 15px;
@@ -2128,7 +2127,7 @@ img.character-avatar {
 
 .ranking-modal-title {
   color: #ffd700;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fredoka', sans-serif;
   font-size: 2rem;
   margin: 10px 0 5px;
 }
