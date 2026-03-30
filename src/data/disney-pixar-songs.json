@@ -16,7 +16,7 @@
       "You've Got a Friend in Me",
       "Toy Story",
       "Randy Newman",
-      "Toy Story song"
+      "Toy Story soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -25,18 +25,18 @@
         "clues": [
           {
             "attempt": 1,
-            "start_time": 17.0,
-            "end_time": 20.0
+            "start_time": 18.0,
+            "end_time": 21.0
           },
           {
             "attempt": 2,
-            "start_time": 17.0,
-            "end_time": 21.5
+            "start_time": 18.0,
+            "end_time": 22.5
           },
           {
             "attempt": 3,
-            "start_time": 17.0,
-            "end_time": 23.0
+            "start_time": 18.0,
+            "end_time": 24.0
           }
         ]
       }
@@ -45,6 +45,92 @@
   {
     "id": "melody_002",
     "day_number": 2,
+    "metadata": {
+      "titles": {
+        "en_US": "Strange Things"
+      },
+      "movies": {
+        "en_US": "Toy Story"
+      },
+      "release_year": 1995,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Strange Things",
+      "Toy Story",
+      "Randy Newman",
+      "Toy Story soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_002.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_003",
+    "day_number": 3,
+    "metadata": {
+      "titles": {
+        "en_US": "I Will Go Sailing No More"
+      },
+      "movies": {
+        "en_US": "Toy Story"
+      },
+      "release_year": 1995,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "I Will Go Sailing No More",
+      "Toy Story",
+      "Randy Newman",
+      "Toy Story soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_003.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_004",
+    "day_number": 4,
     "metadata": {
       "titles": {
         "en_US": "When She Loved Me"
@@ -58,94 +144,8 @@
     "search_aliases": [
       "When She Loved Me",
       "Toy Story 2",
-      "Jessie song",
-      "Toy Story 2 song"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_002.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 24.0,
-            "end_time": 27.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 24.0,
-            "end_time": 28.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 24.0,
-            "end_time": 30.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_003",
-    "day_number": 3,
-    "metadata": {
-      "titles": {
-        "en_US": "We Belong Together"
-      },
-      "movies": {
-        "en_US": "Toy Story 3"
-      },
-      "release_year": 2010,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "We Belong Together",
-      "Toy Story 3",
-      "Toy Story 3 ending song",
-      "Toy Story 3 song"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_003.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 42.0,
-            "end_time": 45.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 42.0,
-            "end_time": 46.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 42.0,
-            "end_time": 48.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_004",
-    "day_number": 4,
-    "metadata": {
-      "titles": {
-        "en_US": "The Ballad of the Lonesome Cowboy"
-      },
-      "movies": {
-        "en_US": "Toy Story 4"
-      },
-      "release_year": 2019,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "The Ballad of the Lonesome Cowboy",
-      "Toy Story 4",
-      "Lonesome Cowboy",
-      "Toy Story 4 song"
+      "Sarah McLachlan",
+      "Toy Story 2 soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -176,19 +176,19 @@
     "day_number": 5,
     "metadata": {
       "titles": {
-        "en_US": "The Time of Your Life"
+        "en_US": "Woody's Roundup"
       },
       "movies": {
-        "en_US": "A Bug's Life"
+        "en_US": "Toy Story 2"
       },
-      "release_year": 1998,
+      "release_year": 1999,
       "spotify_url": ""
     },
     "search_aliases": [
-      "The Time of Your Life",
-      "A Bug's Life",
-      "Randy Newman",
-      "A Bug's Life song"
+      "Woody's Roundup",
+      "Toy Story 2",
+      "Riders in the Sky",
+      "Toy Story 2 soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -197,18 +197,18 @@
         "clues": [
           {
             "attempt": 1,
-            "start_time": 41.0,
-            "end_time": 44.0
+            "start_time": 22.0,
+            "end_time": 25.0
           },
           {
             "attempt": 2,
-            "start_time": 41.0,
-            "end_time": 45.5
+            "start_time": 22.0,
+            "end_time": 26.5
           },
           {
             "attempt": 3,
-            "start_time": 41.0,
-            "end_time": 47.0
+            "start_time": 22.0,
+            "end_time": 28.0
           }
         ]
       }
@@ -219,23 +219,66 @@
     "day_number": 6,
     "metadata": {
       "titles": {
-        "en_US": "If I Didn't Have You"
+        "en_US": "The Cleaner"
       },
       "movies": {
-        "en_US": "Monsters, Inc."
+        "en_US": "Toy Story 2"
       },
-      "release_year": 2001,
+      "release_year": 1999,
       "spotify_url": ""
     },
     "search_aliases": [
-      "If I Didn't Have You",
-      "Monsters, Inc.",
-      "Monsters Inc song",
-      "Mike and Sulley song"
+      "The Cleaner",
+      "Toy Story 2",
+      "Randy Newman",
+      "Toy Story 2 soundtrack"
     ],
     "gameplay": {
       "audio_source": {
         "url": "/public/audio/melody_006.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_007",
+    "day_number": 7,
+    "metadata": {
+      "titles": {
+        "en_US": "We Belong Together"
+      },
+      "movies": {
+        "en_US": "Toy Story 3"
+      },
+      "release_year": 2010,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "We Belong Together",
+      "Toy Story 3",
+      "Randy Newman",
+      "Toy Story 3 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_007.mp3",
         "is_local": true,
         "clues": [
           {
@@ -258,8 +301,481 @@
     }
   },
   {
-    "id": "melody_007",
-    "day_number": 7,
+    "id": "melody_008",
+    "day_number": 8,
+    "metadata": {
+      "titles": {
+        "en_US": "Dream Weaver"
+      },
+      "movies": {
+        "en_US": "Toy Story 3"
+      },
+      "release_year": 2010,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Dream Weaver",
+      "Toy Story 3",
+      "Gary Wright",
+      "Toy Story 3 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_008.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_009",
+    "day_number": 9,
+    "metadata": {
+      "titles": {
+        "en_US": "Spanish Buzz"
+      },
+      "movies": {
+        "en_US": "Toy Story 3"
+      },
+      "release_year": 2010,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Spanish Buzz",
+      "Toy Story 3",
+      "Randy Newman",
+      "Toy Story 3 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_009.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_010",
+    "day_number": 10,
+    "metadata": {
+      "titles": {
+        "en_US": "The Ballad of the Lonesome Cowboy"
+      },
+      "movies": {
+        "en_US": "Toy Story 4"
+      },
+      "release_year": 2019,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "The Ballad of the Lonesome Cowboy",
+      "Toy Story 4",
+      "Chris Stapleton",
+      "Toy Story 4 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_010.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_011",
+    "day_number": 11,
+    "metadata": {
+      "titles": {
+        "en_US": "I Can't Let You Throw Yourself Away"
+      },
+      "movies": {
+        "en_US": "Toy Story 4"
+      },
+      "release_year": 2019,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "I Can't Let You Throw Yourself Away",
+      "Toy Story 4",
+      "Randy Newman",
+      "Toy Story 4 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_011.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_012",
+    "day_number": 12,
+    "metadata": {
+      "titles": {
+        "en_US": "Operation Harmony"
+      },
+      "movies": {
+        "en_US": "Toy Story 4"
+      },
+      "release_year": 2019,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Operation Harmony",
+      "Toy Story 4",
+      "Randy Newman",
+      "Toy Story 4 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_012.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_013",
+    "day_number": 13,
+    "metadata": {
+      "titles": {
+        "en_US": "The Time of Your Life"
+      },
+      "movies": {
+        "en_US": "A Bug's Life"
+      },
+      "release_year": 1998,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "The Time of Your Life",
+      "A Bug's Life",
+      "Randy Newman",
+      "A Bug's Life soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_013.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_014",
+    "day_number": 14,
+    "metadata": {
+      "titles": {
+        "en_US": "The Ants Go Marching"
+      },
+      "movies": {
+        "en_US": "A Bug's Life"
+      },
+      "release_year": 1998,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "The Ants Go Marching",
+      "A Bug's Life",
+      "Randy Newman",
+      "A Bug's Life soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_014.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_015",
+    "day_number": 15,
+    "metadata": {
+      "titles": {
+        "en_US": "Hopper and His Gang"
+      },
+      "movies": {
+        "en_US": "A Bug's Life"
+      },
+      "release_year": 1998,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Hopper and His Gang",
+      "A Bug's Life",
+      "Randy Newman",
+      "A Bug's Life soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_015.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_016",
+    "day_number": 16,
+    "metadata": {
+      "titles": {
+        "en_US": "If I Didn't Have You"
+      },
+      "movies": {
+        "en_US": "Monsters, Inc."
+      },
+      "release_year": 2001,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "If I Didn't Have You",
+      "Monsters, Inc.",
+      "Randy Newman",
+      "Monsters, Inc. soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_016.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_017",
+    "day_number": 17,
+    "metadata": {
+      "titles": {
+        "en_US": "Monsters, Inc."
+      },
+      "movies": {
+        "en_US": "Monsters, Inc."
+      },
+      "release_year": 2001,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Monsters, Inc.",
+      "Monsters, Inc.",
+      "Randy Newman",
+      "Monsters, Inc. soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_017.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_018",
+    "day_number": 18,
+    "metadata": {
+      "titles": {
+        "en_US": "Boo's Tired"
+      },
+      "movies": {
+        "en_US": "Monsters, Inc."
+      },
+      "release_year": 2001,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Boo's Tired",
+      "Monsters, Inc.",
+      "Randy Newman",
+      "Monsters, Inc. soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_018.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_019",
+    "day_number": 19,
     "metadata": {
       "titles": {
         "en_US": "Nemo Egg (Main Title)"
@@ -273,524 +789,8 @@
     "search_aliases": [
       "Nemo Egg (Main Title)",
       "Finding Nemo",
-      "Nemo theme",
-      "Finding Nemo score"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_007.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 12.0,
-            "end_time": 15.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 12.0,
-            "end_time": 16.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 12.0,
-            "end_time": 18.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_008",
-    "day_number": 8,
-    "metadata": {
-      "titles": {
-        "en_US": "The Incredits"
-      },
-      "movies": {
-        "en_US": "The Incredibles"
-      },
-      "release_year": 2004,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "The Incredits",
-      "The Incredibles",
-      "Incredibles theme",
-      "The Incredibles score"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_008.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 0.0,
-            "end_time": 3.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 0.0,
-            "end_time": 4.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 0.0,
-            "end_time": 6.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_009",
-    "day_number": 9,
-    "metadata": {
-      "titles": {
-        "en_US": "Elastigirl Is Back"
-      },
-      "movies": {
-        "en_US": "Incredibles 2"
-      },
-      "release_year": 2018,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "Elastigirl Is Back",
-      "Incredibles 2",
-      "Elastigirl theme",
-      "Incredibles 2 score"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_009.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 8.0,
-            "end_time": 11.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 8.0,
-            "end_time": 12.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 8.0,
-            "end_time": 14.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_010",
-    "day_number": 10,
-    "metadata": {
-      "titles": {
-        "en_US": "Life Is a Highway"
-      },
-      "movies": {
-        "en_US": "Cars"
-      },
-      "release_year": 2006,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "Life Is a Highway",
-      "Cars",
-      "Rascal Flatts",
-      "Cars song"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_010.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 36.0,
-            "end_time": 39.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 36.0,
-            "end_time": 40.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 36.0,
-            "end_time": 42.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_011",
-    "day_number": 11,
-    "metadata": {
-      "titles": {
-        "en_US": "Collision of Worlds"
-      },
-      "movies": {
-        "en_US": "Cars 2"
-      },
-      "release_year": 2011,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "Collision of Worlds",
-      "Cars 2",
-      "Cars 2 credits song",
-      "Cars 2 song"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_011.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 33.0,
-            "end_time": 36.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 33.0,
-            "end_time": 37.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 33.0,
-            "end_time": 39.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_012",
-    "day_number": 12,
-    "metadata": {
-      "titles": {
-        "en_US": "Ride"
-      },
-      "movies": {
-        "en_US": "Cars 3"
-      },
-      "release_year": 2017,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "Ride",
-      "Cars 3",
-      "ZZ Ward",
-      "Cars 3 song"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_012.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 29.0,
-            "end_time": 32.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 29.0,
-            "end_time": 33.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 29.0,
-            "end_time": 35.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_013",
-    "day_number": 13,
-    "metadata": {
-      "titles": {
-        "en_US": "Le Festin"
-      },
-      "movies": {
-        "en_US": "Ratatouille"
-      },
-      "release_year": 2007,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "Le Festin",
-      "Ratatouille",
-      "Ratatouille song",
-      "Camille"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_013.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 14.0,
-            "end_time": 17.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 14.0,
-            "end_time": 18.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 14.0,
-            "end_time": 20.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_014",
-    "day_number": 14,
-    "metadata": {
-      "titles": {
-        "en_US": "Put On Your Sunday Clothes"
-      },
-      "movies": {
-        "en_US": "WALL-E"
-      },
-      "release_year": 2008,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "Put On Your Sunday Clothes",
-      "WALL-E",
-      "Hello Dolly song",
-      "WALL-E song"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_014.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 31.0,
-            "end_time": 34.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 31.0,
-            "end_time": 35.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 31.0,
-            "end_time": 37.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_015",
-    "day_number": 15,
-    "metadata": {
-      "titles": {
-        "en_US": "Married Life"
-      },
-      "movies": {
-        "en_US": "Up"
-      },
-      "release_year": 2009,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "Married Life",
-      "Up",
-      "Up theme",
-      "Up score"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_015.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 0.0,
-            "end_time": 3.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 0.0,
-            "end_time": 4.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 0.0,
-            "end_time": 6.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_016",
-    "day_number": 16,
-    "metadata": {
-      "titles": {
-        "en_US": "Touch the Sky"
-      },
-      "movies": {
-        "en_US": "Brave"
-      },
-      "release_year": 2012,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "Touch the Sky",
-      "Brave",
-      "Julie Fowlis",
-      "Brave song"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_016.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 16.0,
-            "end_time": 19.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 16.0,
-            "end_time": 20.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 16.0,
-            "end_time": 22.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_017",
-    "day_number": 17,
-    "metadata": {
-      "titles": {
-        "en_US": "Bundle of Joy"
-      },
-      "movies": {
-        "en_US": "Inside Out"
-      },
-      "release_year": 2015,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "Bundle of Joy",
-      "Inside Out",
-      "Joy theme",
-      "Inside Out score"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_017.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 0.0,
-            "end_time": 3.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 0.0,
-            "end_time": 4.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 0.0,
-            "end_time": 6.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_018",
-    "day_number": 18,
-    "metadata": {
-      "titles": {
-        "en_US": "The Life of Riley"
-      },
-      "movies": {
-        "en_US": "Inside Out 2"
-      },
-      "release_year": 2024,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "The Life of Riley",
-      "Inside Out 2",
-      "Riley theme",
-      "Inside Out 2 score"
-    ],
-    "gameplay": {
-      "audio_source": {
-        "url": "/public/audio/melody_018.mp3",
-        "is_local": true,
-        "clues": [
-          {
-            "attempt": 1,
-            "start_time": 10.0,
-            "end_time": 13.0
-          },
-          {
-            "attempt": 2,
-            "start_time": 10.0,
-            "end_time": 14.5
-          },
-          {
-            "attempt": 3,
-            "start_time": 10.0,
-            "end_time": 16.0
-          }
-        ]
-      }
-    }
-  },
-  {
-    "id": "melody_019",
-    "day_number": 19,
-    "metadata": {
-      "titles": {
-        "en_US": "Homestead"
-      },
-      "movies": {
-        "en_US": "The Good Dinosaur"
-      },
-      "release_year": 2015,
-      "spotify_url": ""
-    },
-    "search_aliases": [
-      "Homestead",
-      "The Good Dinosaur",
-      "Arlo theme",
-      "The Good Dinosaur score"
+      "Thomas Newman",
+      "Finding Nemo soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -799,18 +799,18 @@
         "clues": [
           {
             "attempt": 1,
-            "start_time": 12.0,
-            "end_time": 15.0
+            "start_time": 18.0,
+            "end_time": 21.0
           },
           {
             "attempt": 2,
-            "start_time": 12.0,
-            "end_time": 16.5
+            "start_time": 18.0,
+            "end_time": 22.5
           },
           {
             "attempt": 3,
-            "start_time": 12.0,
-            "end_time": 18.0
+            "start_time": 18.0,
+            "end_time": 24.0
           }
         ]
       }
@@ -821,19 +821,19 @@
     "day_number": 20,
     "metadata": {
       "titles": {
-        "en_US": "Unforgettable"
+        "en_US": "First Day"
       },
       "movies": {
-        "en_US": "Finding Dory"
+        "en_US": "Finding Nemo"
       },
-      "release_year": 2016,
+      "release_year": 2003,
       "spotify_url": ""
     },
     "search_aliases": [
-      "Unforgettable",
-      "Finding Dory",
-      "Finding Dory ending song",
-      "Finding Dory song"
+      "First Day",
+      "Finding Nemo",
+      "Thomas Newman",
+      "Finding Nemo soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -864,19 +864,19 @@
     "day_number": 21,
     "metadata": {
       "titles": {
-        "en_US": "Remember Me"
+        "en_US": "Fronds Like These"
       },
       "movies": {
-        "en_US": "Coco"
+        "en_US": "Finding Nemo"
       },
-      "release_year": 2017,
+      "release_year": 2003,
       "spotify_url": ""
     },
     "search_aliases": [
-      "Remember Me",
-      "Coco",
-      "Recuerdame",
-      "Coco song"
+      "Fronds Like These",
+      "Finding Nemo",
+      "Thomas Newman",
+      "Finding Nemo soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -885,18 +885,18 @@
         "clues": [
           {
             "attempt": 1,
-            "start_time": 36.0,
-            "end_time": 39.0
+            "start_time": 12.0,
+            "end_time": 15.0
           },
           {
             "attempt": 2,
-            "start_time": 36.0,
-            "end_time": 40.5
+            "start_time": 12.0,
+            "end_time": 16.5
           },
           {
             "attempt": 3,
-            "start_time": 36.0,
-            "end_time": 42.0
+            "start_time": 12.0,
+            "end_time": 18.0
           }
         ]
       }
@@ -907,19 +907,19 @@
     "day_number": 22,
     "metadata": {
       "titles": {
-        "en_US": "Carried Me With You"
+        "en_US": "The Incredits"
       },
       "movies": {
-        "en_US": "Onward"
+        "en_US": "The Incredibles"
       },
-      "release_year": 2020,
+      "release_year": 2004,
       "spotify_url": ""
     },
     "search_aliases": [
-      "Carried Me With You",
-      "Onward",
-      "Brandi Carlile",
-      "Onward song"
+      "The Incredits",
+      "The Incredibles",
+      "Michael Giacchino",
+      "The Incredibles soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -928,18 +928,18 @@
         "clues": [
           {
             "attempt": 1,
-            "start_time": 41.0,
-            "end_time": 44.0
+            "start_time": 18.0,
+            "end_time": 21.0
           },
           {
             "attempt": 2,
-            "start_time": 41.0,
-            "end_time": 45.5
+            "start_time": 18.0,
+            "end_time": 22.5
           },
           {
             "attempt": 3,
-            "start_time": 41.0,
-            "end_time": 47.0
+            "start_time": 18.0,
+            "end_time": 24.0
           }
         ]
       }
@@ -950,19 +950,19 @@
     "day_number": 23,
     "metadata": {
       "titles": {
-        "en_US": "Born to Play"
+        "en_US": "Life's Incredible Again"
       },
       "movies": {
-        "en_US": "Soul"
+        "en_US": "The Incredibles"
       },
-      "release_year": 2020,
+      "release_year": 2004,
       "spotify_url": ""
     },
     "search_aliases": [
-      "Born to Play",
-      "Soul",
-      "Joe Gardner jazz",
-      "Soul soundtrack"
+      "Life's Incredible Again",
+      "The Incredibles",
+      "Michael Giacchino",
+      "The Incredibles soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -971,18 +971,18 @@
         "clues": [
           {
             "attempt": 1,
-            "start_time": 0.0,
-            "end_time": 3.0
+            "start_time": 22.0,
+            "end_time": 25.0
           },
           {
             "attempt": 2,
-            "start_time": 0.0,
-            "end_time": 4.5
+            "start_time": 22.0,
+            "end_time": 26.5
           },
           {
             "attempt": 3,
-            "start_time": 0.0,
-            "end_time": 6.0
+            "start_time": 22.0,
+            "end_time": 28.0
           }
         ]
       }
@@ -993,19 +993,19 @@
     "day_number": 24,
     "metadata": {
       "titles": {
-        "en_US": "Luca"
+        "en_US": "Kronos Unveiled"
       },
       "movies": {
-        "en_US": "Luca"
+        "en_US": "The Incredibles"
       },
-      "release_year": 2021,
+      "release_year": 2004,
       "spotify_url": ""
     },
     "search_aliases": [
-      "Luca",
-      "Luca soundtrack",
-      "Luca theme",
-      "Luca score"
+      "Kronos Unveiled",
+      "The Incredibles",
+      "Michael Giacchino",
+      "The Incredibles soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -1014,18 +1014,18 @@
         "clues": [
           {
             "attempt": 1,
-            "start_time": 10.0,
-            "end_time": 13.0
+            "start_time": 12.0,
+            "end_time": 15.0
           },
           {
             "attempt": 2,
-            "start_time": 10.0,
-            "end_time": 14.5
+            "start_time": 12.0,
+            "end_time": 16.5
           },
           {
             "attempt": 3,
-            "start_time": 10.0,
-            "end_time": 16.0
+            "start_time": 12.0,
+            "end_time": 18.0
           }
         ]
       }
@@ -1036,19 +1036,19 @@
     "day_number": 25,
     "metadata": {
       "titles": {
-        "en_US": "Nobody Like U"
+        "en_US": "Elastigirl Is Back"
       },
       "movies": {
-        "en_US": "Turning Red"
+        "en_US": "Incredibles 2"
       },
-      "release_year": 2022,
+      "release_year": 2018,
       "spotify_url": ""
     },
     "search_aliases": [
-      "Nobody Like U",
-      "Turning Red",
-      "4*TOWN",
-      "Turning Red song"
+      "Elastigirl Is Back",
+      "Incredibles 2",
+      "Michael Giacchino",
+      "Incredibles 2 soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -1057,18 +1057,18 @@
         "clues": [
           {
             "attempt": 1,
-            "start_time": 21.0,
-            "end_time": 24.0
+            "start_time": 18.0,
+            "end_time": 21.0
           },
           {
             "attempt": 2,
-            "start_time": 21.0,
-            "end_time": 25.5
+            "start_time": 18.0,
+            "end_time": 22.5
           },
           {
             "attempt": 3,
-            "start_time": 21.0,
-            "end_time": 27.0
+            "start_time": 18.0,
+            "end_time": 24.0
           }
         ]
       }
@@ -1079,19 +1079,19 @@
     "day_number": 26,
     "metadata": {
       "titles": {
-        "en_US": "Mission Perpetual"
+        "en_US": "A Dash of Flavor"
       },
       "movies": {
-        "en_US": "Lightyear"
+        "en_US": "Incredibles 2"
       },
-      "release_year": 2022,
+      "release_year": 2018,
       "spotify_url": ""
     },
     "search_aliases": [
-      "Mission Perpetual",
-      "Lightyear",
-      "Buzz theme",
-      "Lightyear score"
+      "A Dash of Flavor",
+      "Incredibles 2",
+      "Michael Giacchino",
+      "Incredibles 2 soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -1100,18 +1100,18 @@
         "clues": [
           {
             "attempt": 1,
-            "start_time": 14.0,
-            "end_time": 17.0
+            "start_time": 22.0,
+            "end_time": 25.0
           },
           {
             "attempt": 2,
-            "start_time": 14.0,
-            "end_time": 18.5
+            "start_time": 22.0,
+            "end_time": 26.5
           },
           {
             "attempt": 3,
-            "start_time": 14.0,
-            "end_time": 20.0
+            "start_time": 22.0,
+            "end_time": 28.0
           }
         ]
       }
@@ -1122,19 +1122,19 @@
     "day_number": 27,
     "metadata": {
       "titles": {
-        "en_US": "Steal the Show"
+        "en_US": "Incredits 2"
       },
       "movies": {
-        "en_US": "Elemental"
+        "en_US": "Incredibles 2"
       },
-      "release_year": 2023,
+      "release_year": 2018,
       "spotify_url": ""
     },
     "search_aliases": [
-      "Steal the Show",
-      "Elemental",
-      "Lauv",
-      "Elemental song"
+      "Incredits 2",
+      "Incredibles 2",
+      "Michael Giacchino",
+      "Incredibles 2 soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -1143,18 +1143,18 @@
         "clues": [
           {
             "attempt": 1,
-            "start_time": 31.0,
-            "end_time": 34.0
+            "start_time": 12.0,
+            "end_time": 15.0
           },
           {
             "attempt": 2,
-            "start_time": 31.0,
-            "end_time": 35.5
+            "start_time": 12.0,
+            "end_time": 16.5
           },
           {
             "attempt": 3,
-            "start_time": 31.0,
-            "end_time": 37.0
+            "start_time": 12.0,
+            "end_time": 18.0
           }
         ]
       }
@@ -1165,19 +1165,19 @@
     "day_number": 28,
     "metadata": {
       "titles": {
-        "en_US": "Elio"
+        "en_US": "Life Is a Highway"
       },
       "movies": {
-        "en_US": "Elio"
+        "en_US": "Cars"
       },
-      "release_year": 2025,
+      "release_year": 2006,
       "spotify_url": ""
     },
     "search_aliases": [
-      "Elio",
-      "Elio soundtrack",
-      "Elio theme",
-      "Elio score"
+      "Life Is a Highway",
+      "Cars",
+      "Rascal Flatts",
+      "Cars soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -1208,19 +1208,19 @@
     "day_number": 29,
     "metadata": {
       "titles": {
-        "en_US": "Save The Day"
+        "en_US": "Real Gone"
       },
       "movies": {
-        "en_US": "Hoppers"
+        "en_US": "Cars"
       },
-      "release_year": 2026,
+      "release_year": 2006,
       "spotify_url": ""
     },
     "search_aliases": [
-      "Save The Day",
-      "Hoppers",
-      "SZA",
-      "Hoppers song"
+      "Real Gone",
+      "Cars",
+      "Sheryl Crow",
+      "Cars soundtrack"
     ],
     "gameplay": {
       "audio_source": {
@@ -1229,18 +1229,2512 @@
         "clues": [
           {
             "attempt": 1,
-            "start_time": 30.0,
-            "end_time": 33.0
+            "start_time": 22.0,
+            "end_time": 25.0
           },
           {
             "attempt": 2,
-            "start_time": 30.0,
-            "end_time": 34.5
+            "start_time": 22.0,
+            "end_time": 26.5
           },
           {
             "attempt": 3,
-            "start_time": 30.0,
-            "end_time": 36.0
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_030",
+    "day_number": 30,
+    "metadata": {
+      "titles": {
+        "en_US": "Our Town"
+      },
+      "movies": {
+        "en_US": "Cars"
+      },
+      "release_year": 2006,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Our Town",
+      "Cars",
+      "James Taylor",
+      "Cars soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_030.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_031",
+    "day_number": 31,
+    "metadata": {
+      "titles": {
+        "en_US": "Collision of Worlds"
+      },
+      "movies": {
+        "en_US": "Cars 2"
+      },
+      "release_year": 2011,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Collision of Worlds",
+      "Cars 2",
+      "Robbie Williams & Brad Paisley",
+      "Cars 2 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_031.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_032",
+    "day_number": 32,
+    "metadata": {
+      "titles": {
+        "en_US": "You Might Think"
+      },
+      "movies": {
+        "en_US": "Cars 2"
+      },
+      "release_year": 2011,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "You Might Think",
+      "Cars 2",
+      "Weezer",
+      "Cars 2 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_032.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_033",
+    "day_number": 33,
+    "metadata": {
+      "titles": {
+        "en_US": "Nobody's Fool"
+      },
+      "movies": {
+        "en_US": "Cars 2"
+      },
+      "release_year": 2011,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Nobody's Fool",
+      "Cars 2",
+      "Brad Paisley",
+      "Cars 2 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_033.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_034",
+    "day_number": 34,
+    "metadata": {
+      "titles": {
+        "en_US": "Run That Race"
+      },
+      "movies": {
+        "en_US": "Cars 3"
+      },
+      "release_year": 2017,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Run That Race",
+      "Cars 3",
+      "Dan Auerbach",
+      "Cars 3 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_034.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_035",
+    "day_number": 35,
+    "metadata": {
+      "titles": {
+        "en_US": "Ride"
+      },
+      "movies": {
+        "en_US": "Cars 3"
+      },
+      "release_year": 2017,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Ride",
+      "Cars 3",
+      "ZZ Ward & Gary Clark Jr.",
+      "Cars 3 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_035.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_036",
+    "day_number": 36,
+    "metadata": {
+      "titles": {
+        "en_US": "Glory Days"
+      },
+      "movies": {
+        "en_US": "Cars 3"
+      },
+      "release_year": 2017,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Glory Days",
+      "Cars 3",
+      "Andra Day",
+      "Cars 3 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_036.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_037",
+    "day_number": 37,
+    "metadata": {
+      "titles": {
+        "en_US": "Le Festin"
+      },
+      "movies": {
+        "en_US": "Ratatouille"
+      },
+      "release_year": 2007,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Le Festin",
+      "Ratatouille",
+      "Camille",
+      "Ratatouille soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_037.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_038",
+    "day_number": 38,
+    "metadata": {
+      "titles": {
+        "en_US": "Remy Drives a Linguini"
+      },
+      "movies": {
+        "en_US": "Ratatouille"
+      },
+      "release_year": 2007,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Remy Drives a Linguini",
+      "Ratatouille",
+      "Michael Giacchino",
+      "Ratatouille soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_038.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_039",
+    "day_number": 39,
+    "metadata": {
+      "titles": {
+        "en_US": "End Creditouilles"
+      },
+      "movies": {
+        "en_US": "Ratatouille"
+      },
+      "release_year": 2007,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "End Creditouilles",
+      "Ratatouille",
+      "Michael Giacchino",
+      "Ratatouille soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_039.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_040",
+    "day_number": 40,
+    "metadata": {
+      "titles": {
+        "en_US": "Down to Earth"
+      },
+      "movies": {
+        "en_US": "WALL-E"
+      },
+      "release_year": 2008,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Down to Earth",
+      "WALL-E",
+      "Peter Gabriel",
+      "WALL-E soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_040.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_041",
+    "day_number": 41,
+    "metadata": {
+      "titles": {
+        "en_US": "Define Dancing"
+      },
+      "movies": {
+        "en_US": "WALL-E"
+      },
+      "release_year": 2008,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Define Dancing",
+      "WALL-E",
+      "Thomas Newman",
+      "WALL-E soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_041.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_042",
+    "day_number": 42,
+    "metadata": {
+      "titles": {
+        "en_US": "Put On Your Sunday Clothes"
+      },
+      "movies": {
+        "en_US": "WALL-E"
+      },
+      "release_year": 2008,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Put On Your Sunday Clothes",
+      "WALL-E",
+      "Michael Crawford",
+      "WALL-E soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_042.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_043",
+    "day_number": 43,
+    "metadata": {
+      "titles": {
+        "en_US": "Married Life"
+      },
+      "movies": {
+        "en_US": "Up"
+      },
+      "release_year": 2009,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Married Life",
+      "Up",
+      "Michael Giacchino",
+      "Up soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_043.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_044",
+    "day_number": 44,
+    "metadata": {
+      "titles": {
+        "en_US": "Up with Titles"
+      },
+      "movies": {
+        "en_US": "Up"
+      },
+      "release_year": 2009,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Up with Titles",
+      "Up",
+      "Michael Giacchino",
+      "Up soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_044.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_045",
+    "day_number": 45,
+    "metadata": {
+      "titles": {
+        "en_US": "The Spirit of Adventure"
+      },
+      "movies": {
+        "en_US": "Up"
+      },
+      "release_year": 2009,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "The Spirit of Adventure",
+      "Up",
+      "Michael Giacchino",
+      "Up soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_045.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_046",
+    "day_number": 46,
+    "metadata": {
+      "titles": {
+        "en_US": "Touch the Sky"
+      },
+      "movies": {
+        "en_US": "Brave"
+      },
+      "release_year": 2012,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Touch the Sky",
+      "Brave",
+      "Julie Fowlis",
+      "Brave soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_046.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_047",
+    "day_number": 47,
+    "metadata": {
+      "titles": {
+        "en_US": "Into the Open Air"
+      },
+      "movies": {
+        "en_US": "Brave"
+      },
+      "release_year": 2012,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Into the Open Air",
+      "Brave",
+      "Julie Fowlis",
+      "Brave soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_047.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_048",
+    "day_number": 48,
+    "metadata": {
+      "titles": {
+        "en_US": "Noble Maiden Fair"
+      },
+      "movies": {
+        "en_US": "Brave"
+      },
+      "release_year": 2012,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Noble Maiden Fair",
+      "Brave",
+      "Emma Thompson, Peigi Barker, Julie Walters",
+      "Brave soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_048.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_049",
+    "day_number": 49,
+    "metadata": {
+      "titles": {
+        "en_US": "Bundle of Joy"
+      },
+      "movies": {
+        "en_US": "Inside Out"
+      },
+      "release_year": 2015,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Bundle of Joy",
+      "Inside Out",
+      "Michael Giacchino",
+      "Inside Out soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_049.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_050",
+    "day_number": 50,
+    "metadata": {
+      "titles": {
+        "en_US": "Imagination Land"
+      },
+      "movies": {
+        "en_US": "Inside Out"
+      },
+      "release_year": 2015,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Imagination Land",
+      "Inside Out",
+      "Michael Giacchino",
+      "Inside Out soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_050.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_051",
+    "day_number": 51,
+    "metadata": {
+      "titles": {
+        "en_US": "Chasing the Pink Elephant"
+      },
+      "movies": {
+        "en_US": "Inside Out"
+      },
+      "release_year": 2015,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Chasing the Pink Elephant",
+      "Inside Out",
+      "Michael Giacchino",
+      "Inside Out soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_051.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_052",
+    "day_number": 52,
+    "metadata": {
+      "titles": {
+        "en_US": "Go Team!"
+      },
+      "movies": {
+        "en_US": "Inside Out 2"
+      },
+      "release_year": 2024,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Go Team!",
+      "Inside Out 2",
+      "Andrea Datzman",
+      "Inside Out 2 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_052.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_053",
+    "day_number": 53,
+    "metadata": {
+      "titles": {
+        "en_US": "The Life of Riley"
+      },
+      "movies": {
+        "en_US": "Inside Out 2"
+      },
+      "release_year": 2024,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "The Life of Riley",
+      "Inside Out 2",
+      "Andrea Datzman",
+      "Inside Out 2 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_053.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_054",
+    "day_number": 54,
+    "metadata": {
+      "titles": {
+        "en_US": "Thread the Needle"
+      },
+      "movies": {
+        "en_US": "Inside Out 2"
+      },
+      "release_year": 2024,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Thread the Needle",
+      "Inside Out 2",
+      "Andrea Datzman",
+      "Inside Out 2 soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_054.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_055",
+    "day_number": 55,
+    "metadata": {
+      "titles": {
+        "en_US": "Homestead"
+      },
+      "movies": {
+        "en_US": "The Good Dinosaur"
+      },
+      "release_year": 2015,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Homestead",
+      "The Good Dinosaur",
+      "Mychael Danna & Jeff Danna",
+      "The Good Dinosaur soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_055.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_056",
+    "day_number": 56,
+    "metadata": {
+      "titles": {
+        "en_US": "Make Your Mark"
+      },
+      "movies": {
+        "en_US": "The Good Dinosaur"
+      },
+      "release_year": 2015,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Make Your Mark",
+      "The Good Dinosaur",
+      "Mychael Danna & Jeff Danna",
+      "The Good Dinosaur soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_056.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_057",
+    "day_number": 57,
+    "metadata": {
+      "titles": {
+        "en_US": "Fireflies"
+      },
+      "movies": {
+        "en_US": "The Good Dinosaur"
+      },
+      "release_year": 2015,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Fireflies",
+      "The Good Dinosaur",
+      "Mychael Danna & Jeff Danna",
+      "The Good Dinosaur soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_057.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_058",
+    "day_number": 58,
+    "metadata": {
+      "titles": {
+        "en_US": "Finding Dory"
+      },
+      "movies": {
+        "en_US": "Finding Dory"
+      },
+      "release_year": 2016,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Finding Dory",
+      "Finding Dory",
+      "Thomas Newman",
+      "Finding Dory soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_058.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_059",
+    "day_number": 59,
+    "metadata": {
+      "titles": {
+        "en_US": "Shells"
+      },
+      "movies": {
+        "en_US": "Finding Dory"
+      },
+      "release_year": 2016,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Shells",
+      "Finding Dory",
+      "Thomas Newman",
+      "Finding Dory soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_059.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_060",
+    "day_number": 60,
+    "metadata": {
+      "titles": {
+        "en_US": "Lost and Found"
+      },
+      "movies": {
+        "en_US": "Finding Dory"
+      },
+      "release_year": 2016,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Lost and Found",
+      "Finding Dory",
+      "Thomas Newman",
+      "Finding Dory soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_060.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_061",
+    "day_number": 61,
+    "metadata": {
+      "titles": {
+        "en_US": "Remember Me"
+      },
+      "movies": {
+        "en_US": "Coco"
+      },
+      "release_year": 2017,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Remember Me",
+      "Coco",
+      "Kristen Anderson-Lopez & Robert Lopez",
+      "Coco soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_061.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_062",
+    "day_number": 62,
+    "metadata": {
+      "titles": {
+        "en_US": "Un Poco Loco"
+      },
+      "movies": {
+        "en_US": "Coco"
+      },
+      "release_year": 2017,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Un Poco Loco",
+      "Coco",
+      "Germaine Franco & Adrian Molina",
+      "Coco soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_062.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_063",
+    "day_number": 63,
+    "metadata": {
+      "titles": {
+        "en_US": "Proud Corazón"
+      },
+      "movies": {
+        "en_US": "Coco"
+      },
+      "release_year": 2017,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Proud Corazón",
+      "Coco",
+      "Germaine Franco",
+      "Coco soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_063.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_064",
+    "day_number": 64,
+    "metadata": {
+      "titles": {
+        "en_US": "Carried Me With You"
+      },
+      "movies": {
+        "en_US": "Onward"
+      },
+      "release_year": 2020,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Carried Me With You",
+      "Onward",
+      "Brandi Carlile",
+      "Onward soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_064.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_065",
+    "day_number": 65,
+    "metadata": {
+      "titles": {
+        "en_US": "The World Was Full of Wonder"
+      },
+      "movies": {
+        "en_US": "Onward"
+      },
+      "release_year": 2020,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "The World Was Full of Wonder",
+      "Onward",
+      "Mychael Danna & Jeff Danna",
+      "Onward soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_065.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_066",
+    "day_number": 66,
+    "metadata": {
+      "titles": {
+        "en_US": "Quests of Yore"
+      },
+      "movies": {
+        "en_US": "Onward"
+      },
+      "release_year": 2020,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Quests of Yore",
+      "Onward",
+      "Mychael Danna & Jeff Danna",
+      "Onward soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_066.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_067",
+    "day_number": 67,
+    "metadata": {
+      "titles": {
+        "en_US": "Born to Play"
+      },
+      "movies": {
+        "en_US": "Soul"
+      },
+      "release_year": 2020,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Born to Play",
+      "Soul",
+      "Jon Batiste",
+      "Soul soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_067.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_068",
+    "day_number": 68,
+    "metadata": {
+      "titles": {
+        "en_US": "Bigger Than Us"
+      },
+      "movies": {
+        "en_US": "Soul"
+      },
+      "release_year": 2020,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Bigger Than Us",
+      "Soul",
+      "Jon Batiste, Trent Reznor & Atticus Ross",
+      "Soul soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_068.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_069",
+    "day_number": 69,
+    "metadata": {
+      "titles": {
+        "en_US": "It's All Right"
+      },
+      "movies": {
+        "en_US": "Soul"
+      },
+      "release_year": 2020,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "It's All Right",
+      "Soul",
+      "Jon Batiste",
+      "Soul soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_069.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_070",
+    "day_number": 70,
+    "metadata": {
+      "titles": {
+        "en_US": "Meet Luca"
+      },
+      "movies": {
+        "en_US": "Luca"
+      },
+      "release_year": 2021,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Meet Luca",
+      "Luca",
+      "Dan Romer",
+      "Luca soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_070.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_071",
+    "day_number": 71,
+    "metadata": {
+      "titles": {
+        "en_US": "The Curious Fish"
+      },
+      "movies": {
+        "en_US": "Luca"
+      },
+      "release_year": 2021,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "The Curious Fish",
+      "Luca",
+      "Dan Romer",
+      "Luca soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_071.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_072",
+    "day_number": 72,
+    "metadata": {
+      "titles": {
+        "en_US": "Go Find Out for Me"
+      },
+      "movies": {
+        "en_US": "Luca"
+      },
+      "release_year": 2021,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Go Find Out for Me",
+      "Luca",
+      "Dan Romer",
+      "Luca soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_072.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_073",
+    "day_number": 73,
+    "metadata": {
+      "titles": {
+        "en_US": "Nobody Like U"
+      },
+      "movies": {
+        "en_US": "Turning Red"
+      },
+      "release_year": 2022,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Nobody Like U",
+      "Turning Red",
+      "4*TOWN",
+      "Turning Red soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_073.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_074",
+    "day_number": 74,
+    "metadata": {
+      "titles": {
+        "en_US": "1 True Love"
+      },
+      "movies": {
+        "en_US": "Turning Red"
+      },
+      "release_year": 2022,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "1 True Love",
+      "Turning Red",
+      "4*TOWN",
+      "Turning Red soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_074.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_075",
+    "day_number": 75,
+    "metadata": {
+      "titles": {
+        "en_US": "U Know What's Up"
+      },
+      "movies": {
+        "en_US": "Turning Red"
+      },
+      "release_year": 2022,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "U Know What's Up",
+      "Turning Red",
+      "4*TOWN",
+      "Turning Red soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_075.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_076",
+    "day_number": 76,
+    "metadata": {
+      "titles": {
+        "en_US": "Mission Log"
+      },
+      "movies": {
+        "en_US": "Lightyear"
+      },
+      "release_year": 2022,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Mission Log",
+      "Lightyear",
+      "Michael Giacchino",
+      "Lightyear soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_076.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_077",
+    "day_number": 77,
+    "metadata": {
+      "titles": {
+        "en_US": "Initial Greetings"
+      },
+      "movies": {
+        "en_US": "Lightyear"
+      },
+      "release_year": 2022,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Initial Greetings",
+      "Lightyear",
+      "Michael Giacchino",
+      "Lightyear soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_077.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_078",
+    "day_number": 78,
+    "metadata": {
+      "titles": {
+        "en_US": "Lightyear"
+      },
+      "movies": {
+        "en_US": "Lightyear"
+      },
+      "release_year": 2022,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Lightyear",
+      "Lightyear",
+      "Michael Giacchino",
+      "Lightyear soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_078.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_079",
+    "day_number": 79,
+    "metadata": {
+      "titles": {
+        "en_US": "Steal the Show"
+      },
+      "movies": {
+        "en_US": "Elemental"
+      },
+      "release_year": 2023,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Steal the Show",
+      "Elemental",
+      "Lauv",
+      "Elemental soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_079.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_080",
+    "day_number": 80,
+    "metadata": {
+      "titles": {
+        "en_US": "Elemental"
+      },
+      "movies": {
+        "en_US": "Elemental"
+      },
+      "release_year": 2023,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Elemental",
+      "Elemental",
+      "Thomas Newman",
+      "Elemental soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_080.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_081",
+    "day_number": 81,
+    "metadata": {
+      "titles": {
+        "en_US": "Ember"
+      },
+      "movies": {
+        "en_US": "Elemental"
+      },
+      "release_year": 2023,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Ember",
+      "Elemental",
+      "Thomas Newman",
+      "Elemental soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_081.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_082",
+    "day_number": 82,
+    "metadata": {
+      "titles": {
+        "en_US": "Elio"
+      },
+      "movies": {
+        "en_US": "Elio"
+      },
+      "release_year": 2025,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Elio",
+      "Elio",
+      "Rob Simonsen",
+      "Elio soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_082.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_083",
+    "day_number": 83,
+    "metadata": {
+      "titles": {
+        "en_US": "Are We Alone?"
+      },
+      "movies": {
+        "en_US": "Elio"
+      },
+      "release_year": 2025,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Are We Alone?",
+      "Elio",
+      "Rob Simonsen",
+      "Elio soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_083.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_084",
+    "day_number": 84,
+    "metadata": {
+      "titles": {
+        "en_US": "Activate Supernova"
+      },
+      "movies": {
+        "en_US": "Elio"
+      },
+      "release_year": 2025,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Activate Supernova",
+      "Elio",
+      "Rob Simonsen",
+      "Elio soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_084.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_085",
+    "day_number": 85,
+    "metadata": {
+      "titles": {
+        "en_US": "The First Hop"
+      },
+      "movies": {
+        "en_US": "Hoppers"
+      },
+      "release_year": 2026,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "The First Hop",
+      "Hoppers",
+      "Mark Mothersbaugh",
+      "Hoppers soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_085.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 18.0,
+            "end_time": 21.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 18.0,
+            "end_time": 22.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 18.0,
+            "end_time": 24.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_086",
+    "day_number": 86,
+    "metadata": {
+      "titles": {
+        "en_US": "Not Just Any Human"
+      },
+      "movies": {
+        "en_US": "Hoppers"
+      },
+      "release_year": 2026,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Not Just Any Human",
+      "Hoppers",
+      "Mark Mothersbaugh",
+      "Hoppers soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_086.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 22.0,
+            "end_time": 25.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 22.0,
+            "end_time": 26.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 22.0,
+            "end_time": 28.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "melody_087",
+    "day_number": 87,
+    "metadata": {
+      "titles": {
+        "en_US": "Mabel On A Mission"
+      },
+      "movies": {
+        "en_US": "Hoppers"
+      },
+      "release_year": 2026,
+      "spotify_url": ""
+    },
+    "search_aliases": [
+      "Mabel On A Mission",
+      "Hoppers",
+      "Mark Mothersbaugh",
+      "Hoppers soundtrack"
+    ],
+    "gameplay": {
+      "audio_source": {
+        "url": "/public/audio/melody_087.mp3",
+        "is_local": true,
+        "clues": [
+          {
+            "attempt": 1,
+            "start_time": 12.0,
+            "end_time": 15.0
+          },
+          {
+            "attempt": 2,
+            "start_time": 12.0,
+            "end_time": 16.5
+          },
+          {
+            "attempt": 3,
+            "start_time": 12.0,
+            "end_time": 18.0
           }
         ]
       }
