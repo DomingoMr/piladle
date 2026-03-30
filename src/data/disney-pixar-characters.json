@@ -1,0 +1,3404 @@
+{
+    "scope": {
+        "franchise": "Disney Pixar",
+        "included": "Pixar Animation Studios",
+        "excluded": [
+            "Disney Animation",
+            "Marvel",
+            "Star Wars"
+        ],
+        "note": "Dataset para juego estilo Wordle/Loldle/Pokedle con personajes relevantes de películas Disney Pixar. Incluye modalidad 'Emojis' y elimina duplicados entre secuelas, manteniendo cada personaje en su primera aparición dentro de la saga."
+    },
+    "movies": [
+        {
+            "title": "Toy Story",
+            "year": 1995,
+            "characters": [
+                {
+                    "nombre": "Woody",
+                    "pelicula": "Toy Story",
+                    "rol": "Protagonista",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 1995,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🤠",
+                        "🪢",
+                        "⭐",
+                        "🐴",
+                        "🧸"
+                    ]
+                },
+                {
+                    "nombre": "Buzz Lightyear",
+                    "pelicula": "Toy Story",
+                    "rol": "Protagonista",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 1995,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🚀",
+                        "👨‍🚀",
+                        "🟢",
+                        "🛸",
+                        "🧸"
+                    ]
+                },
+                {
+                    "nombre": "Bo Peep",
+                    "pelicula": "Toy Story",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 1995,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🐑",
+                        "🩷",
+                        "🪄",
+                        "👒",
+                        "🧸"
+                    ]
+                },
+                {
+                    "nombre": "Rex",
+                    "pelicula": "Toy Story",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 1995,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🦖",
+                        "🎮",
+                        "😰",
+                        "🟢",
+                        "🧸"
+                    ]
+                },
+                {
+                    "nombre": "Hamm",
+                    "pelicula": "Toy Story",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 1995,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐷",
+                        "💰",
+                        "🪙",
+                        "😏",
+                        "🧸"
+                    ]
+                },
+                {
+                    "nombre": "Slinky Dog",
+                    "pelicula": "Toy Story",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 1995,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐶",
+                        "🌀",
+                        "🧸",
+                        "🦴",
+                        "🤎"
+                    ]
+                },
+                {
+                    "nombre": "Mr. Potato Head",
+                    "pelicula": "Toy Story",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 1995,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🥔",
+                        "👀",
+                        "👞",
+                        "😒",
+                        "🧸"
+                    ]
+                },
+                {
+                    "nombre": "Sid Phillips",
+                    "pelicula": "Toy Story",
+                    "rol": "Villano",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 1995,
+                    "género": "Masculino",
+                    "emojis": [
+                        "💀",
+                        "🧨",
+                        "🧪",
+                        "👦",
+                        "😈"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Toy Story 2",
+            "year": 1999,
+            "characters": [
+                {
+                    "nombre": "Jessie",
+                    "pelicula": "Toy Story 2",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 1999,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🤠",
+                        "🪢",
+                        "❤️",
+                        "🧸",
+                        "🎀"
+                    ]
+                },
+                {
+                    "nombre": "Bullseye",
+                    "pelicula": "Toy Story 2",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 1999,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐴",
+                        "💨",
+                        "🤠",
+                        "🧸",
+                        "🤎"
+                    ]
+                },
+                {
+                    "nombre": "Stinky Pete",
+                    "pelicula": "Toy Story 2",
+                    "rol": "Villano",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 1999,
+                    "género": "Masculino",
+                    "emojis": [
+                        "⛏️",
+                        "🤠",
+                        "📦",
+                        "😠",
+                        "🧸"
+                    ]
+                },
+                {
+                    "nombre": "Al McWhiggin",
+                    "pelicula": "Toy Story 2",
+                    "rol": "Villano",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 1999,
+                    "género": "Masculino",
+                    "emojis": [
+                        "💰",
+                        "🧸",
+                        "🏪",
+                        "🍗",
+                        "😬"
+                    ]
+                },
+                {
+                    "nombre": "Mrs. Potato Head",
+                    "pelicula": "Toy Story 2",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 1999,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🥔",
+                        "👒",
+                        "💋",
+                        "👜",
+                        "🧸"
+                    ]
+                },
+                {
+                    "nombre": "Wheezy",
+                    "pelicula": "Toy Story 2",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 1999,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐧",
+                        "🎤",
+                        "🎶",
+                        "🧸",
+                        "🫧"
+                    ]
+                },
+                {
+                    "nombre": "Emperor Zurg",
+                    "pelicula": "Toy Story 2",
+                    "rol": "Villano",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 1999,
+                    "género": "Masculino",
+                    "emojis": [
+                        "👾",
+                        "🟣",
+                        "🔫",
+                        "🚀",
+                        "🧸"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Toy Story 3",
+            "year": 2010,
+            "characters": [
+                {
+                    "nombre": "Lotso",
+                    "pelicula": "Toy Story 3",
+                    "rol": "Villano",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 2010,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🧸",
+                        "🍓",
+                        "💜",
+                        "😈",
+                        "🏫"
+                    ]
+                },
+                {
+                    "nombre": "Barbie",
+                    "pelicula": "Toy Story 3",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 2010,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🩷",
+                        "👠",
+                        "💄",
+                        "🧸",
+                        "✨"
+                    ]
+                },
+                {
+                    "nombre": "Ken",
+                    "pelicula": "Toy Story 3",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 2010,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🕺",
+                        "👚",
+                        "🧸",
+                        "✨",
+                        "😎"
+                    ]
+                },
+                {
+                    "nombre": "Bonnie Anderson",
+                    "pelicula": "Toy Story 3",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2010,
+                    "género": "Femenino",
+                    "emojis": [
+                        "👧",
+                        "🧸",
+                        "🎨",
+                        "🏠",
+                        "💖"
+                    ]
+                },
+                {
+                    "nombre": "Mr. Pricklepants",
+                    "pelicula": "Toy Story 3",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 2010,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🦔",
+                        "🎭",
+                        "🧸",
+                        "🎩",
+                        "📖"
+                    ]
+                },
+                {
+                    "nombre": "Big Baby",
+                    "pelicula": "Toy Story 3",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 2010,
+                    "género": "Masculino",
+                    "emojis": [
+                        "👶",
+                        "🧸",
+                        "🏫",
+                        "🥺",
+                        "🔒"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Toy Story 4",
+            "year": 2019,
+            "characters": [
+                {
+                    "nombre": "Forky",
+                    "pelicula": "Toy Story 4",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 2019,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🍴",
+                        "🧵",
+                        "👀",
+                        "🗑️",
+                        "🧸"
+                    ]
+                },
+                {
+                    "nombre": "Gabby Gabby",
+                    "pelicula": "Toy Story 4",
+                    "rol": "Villano",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 2019,
+                    "género": "Femenino",
+                    "emojis": [
+                        "👧",
+                        "🧸",
+                        "🎀",
+                        "🗣️",
+                        "🏚️"
+                    ]
+                },
+                {
+                    "nombre": "Duke Caboom",
+                    "pelicula": "Toy Story 4",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 2019,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🏍️",
+                        "🇨🇦",
+                        "🕺",
+                        "🧸",
+                        "🔥"
+                    ]
+                },
+                {
+                    "nombre": "Ducky",
+                    "pelicula": "Toy Story 4",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 2019,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐥",
+                        "🎯",
+                        "🧸",
+                        "💛",
+                        "😆"
+                    ]
+                },
+                {
+                    "nombre": "Bunny",
+                    "pelicula": "Toy Story 4",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 2019,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐰",
+                        "🎯",
+                        "🧸",
+                        "💚",
+                        "😆"
+                    ]
+                },
+                {
+                    "nombre": "Giggle McDimples",
+                    "pelicula": "Toy Story 4",
+                    "rol": "Secundario",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 2019,
+                    "género": "Femenino",
+                    "emojis": [
+                        "👮‍♀️",
+                        "💗",
+                        "🔎",
+                        "🧸",
+                        "✨"
+                    ]
+                },
+                {
+                    "nombre": "Benson",
+                    "pelicula": "Toy Story 4",
+                    "rol": "Villano",
+                    "especie": "Juguete",
+                    "poderes": "No",
+                    "año": 2019,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🎭",
+                        "😶",
+                        "🧸",
+                        "🏚️",
+                        "👀"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "A Bug's Life",
+            "year": 1998,
+            "characters": [
+                {
+                    "nombre": "Flik",
+                    "pelicula": "A Bug's Life",
+                    "rol": "Protagonista",
+                    "especie": "Insecto",
+                    "poderes": "No",
+                    "año": 1998,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐜",
+                        "🌾",
+                        "💡",
+                        "🍃",
+                        "🛠️"
+                    ]
+                },
+                {
+                    "nombre": "Princess Atta",
+                    "pelicula": "A Bug's Life",
+                    "rol": "Secundario",
+                    "especie": "Insecto",
+                    "poderes": "No",
+                    "año": 1998,
+                    "género": "Femenino",
+                    "emojis": [
+                        "👑",
+                        "🐜",
+                        "🍃",
+                        "🌾",
+                        "💚"
+                    ]
+                },
+                {
+                    "nombre": "Dot",
+                    "pelicula": "A Bug's Life",
+                    "rol": "Secundario",
+                    "especie": "Insecto",
+                    "poderes": "No",
+                    "año": 1998,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🐜",
+                        "🪽",
+                        "✨",
+                        "👧",
+                        "🌼"
+                    ]
+                },
+                {
+                    "nombre": "Hopper",
+                    "pelicula": "A Bug's Life",
+                    "rol": "Villano",
+                    "especie": "Insecto",
+                    "poderes": "No",
+                    "año": 1998,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🦗",
+                        "😈",
+                        "🌾",
+                        "🪨",
+                        "💥"
+                    ]
+                },
+                {
+                    "nombre": "Francis",
+                    "pelicula": "A Bug's Life",
+                    "rol": "Secundario",
+                    "especie": "Insecto",
+                    "poderes": "No",
+                    "año": 1998,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐞",
+                        "🎭",
+                        "💄",
+                        "🌈",
+                        "😤"
+                    ]
+                },
+                {
+                    "nombre": "Heimlich",
+                    "pelicula": "A Bug's Life",
+                    "rol": "Secundario",
+                    "especie": "Insecto",
+                    "poderes": "No",
+                    "año": 1998,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐛",
+                        "🍬",
+                        "🦋",
+                        "😋",
+                        "💚"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Monsters, Inc.",
+            "year": 2001,
+            "characters": [
+                {
+                    "nombre": "James P. Sullivan",
+                    "pelicula": "Monsters, Inc.",
+                    "rol": "Protagonista",
+                    "especie": "Monstruo",
+                    "poderes": "No",
+                    "año": 2001,
+                    "género": "Masculino",
+                    "emojis": [
+                        "💙",
+                        "🟣",
+                        "🐾",
+                        "🏭",
+                        "😺"
+                    ]
+                },
+                {
+                    "nombre": "Mike Wazowski",
+                    "pelicula": "Monsters, Inc.",
+                    "rol": "Protagonista",
+                    "especie": "Monstruo",
+                    "poderes": "No",
+                    "año": 2001,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🟢",
+                        "👁️",
+                        "😄",
+                        "🏭",
+                        "📞"
+                    ]
+                },
+                {
+                    "nombre": "Boo",
+                    "pelicula": "Monsters, Inc.",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2001,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🚪",
+                        "👧",
+                        "💜",
+                        "🧸",
+                        "😆"
+                    ]
+                },
+                {
+                    "nombre": "Randall Boggs",
+                    "pelicula": "Monsters, Inc.",
+                    "rol": "Villano",
+                    "especie": "Monstruo",
+                    "poderes": "Sí",
+                    "año": 2001,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🦎",
+                        "🟣",
+                        "👁️",
+                        "😈",
+                        "🫥"
+                    ]
+                },
+                {
+                    "nombre": "Celia Mae",
+                    "pelicula": "Monsters, Inc.",
+                    "rol": "Secundario",
+                    "especie": "Monstruo",
+                    "poderes": "No",
+                    "año": 2001,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🐍",
+                        "💚",
+                        "💅",
+                        "📞",
+                        "❤️"
+                    ]
+                },
+                {
+                    "nombre": "Roz",
+                    "pelicula": "Monsters, Inc.",
+                    "rol": "Secundario",
+                    "especie": "Monstruo",
+                    "poderes": "No",
+                    "año": 2001,
+                    "género": "Femenino",
+                    "emojis": [
+                        "📋",
+                        "👓",
+                        "🐌",
+                        "😒",
+                        "🏭"
+                    ]
+                },
+                {
+                    "nombre": "Henry J. Waternoose",
+                    "pelicula": "Monsters, Inc.",
+                    "rol": "Villano",
+                    "especie": "Monstruo",
+                    "poderes": "No",
+                    "año": 2001,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🕷️",
+                        "🎩",
+                        "🏭",
+                        "😠",
+                        "📣"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finding Nemo",
+            "year": 2003,
+            "characters": [
+                {
+                    "nombre": "Marlin",
+                    "pelicula": "Finding Nemo",
+                    "rol": "Protagonista",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2003,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐠",
+                        "🌊",
+                        "👨‍👦",
+                        "😰",
+                        "🪸"
+                    ]
+                },
+                {
+                    "nombre": "Nemo",
+                    "pelicula": "Finding Nemo",
+                    "rol": "Protagonista",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2003,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐠",
+                        "🌊",
+                        "🏫",
+                        "🪸",
+                        "🧡"
+                    ]
+                },
+                {
+                    "nombre": "Dory",
+                    "pelicula": "Finding Nemo",
+                    "rol": "Protagonista",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2003,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🐟",
+                        "🔵",
+                        "🌊",
+                        "😅",
+                        "🗺️"
+                    ]
+                },
+                {
+                    "nombre": "Gill",
+                    "pelicula": "Finding Nemo",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2003,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐟",
+                        "🩹",
+                        "🪟",
+                        "🧠",
+                        "🏥"
+                    ]
+                },
+                {
+                    "nombre": "Bruce",
+                    "pelicula": "Finding Nemo",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2003,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🦈",
+                        "🩸",
+                        "😬",
+                        "🌊",
+                        "🤝"
+                    ]
+                },
+                {
+                    "nombre": "Crush",
+                    "pelicula": "Finding Nemo",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2003,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐢",
+                        "🌊",
+                        "😎",
+                        "🌊",
+                        "🫧"
+                    ]
+                },
+                {
+                    "nombre": "Nigel",
+                    "pelicula": "Finding Nemo",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2003,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🪿",
+                        "🪶",
+                        "🌊",
+                        "🧭",
+                        "😄"
+                    ]
+                },
+                {
+                    "nombre": "Darla Sherman",
+                    "pelicula": "Finding Nemo",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2003,
+                    "género": "Femenino",
+                    "emojis": [
+                        "👧",
+                        "🦷",
+                        "🐟",
+                        "😬",
+                        "🎁"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "The Incredibles",
+            "year": 2004,
+            "characters": [
+                {
+                    "nombre": "Mr. Incredible",
+                    "pelicula": "The Incredibles",
+                    "rol": "Protagonista",
+                    "especie": "Superhumano",
+                    "poderes": "Sí",
+                    "año": 2004,
+                    "género": "Masculino",
+                    "emojis": [
+                        "💪",
+                        "🦸",
+                        "🟥",
+                        "👨‍👩‍👧‍👦",
+                        "🏙️"
+                    ]
+                },
+                {
+                    "nombre": "Elastigirl",
+                    "pelicula": "The Incredibles",
+                    "rol": "Protagonista",
+                    "especie": "Superhumano",
+                    "poderes": "Sí",
+                    "año": 2004,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🦸‍♀️",
+                        "🟥",
+                        "🌀",
+                        "👩‍👧‍👦",
+                        "💥"
+                    ]
+                },
+                {
+                    "nombre": "Violet Parr",
+                    "pelicula": "The Incredibles",
+                    "rol": "Secundario",
+                    "especie": "Superhumano",
+                    "poderes": "Sí",
+                    "año": 2004,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🟣",
+                        "🫥",
+                        "🛡️",
+                        "🦸‍♀️",
+                        "👧"
+                    ]
+                },
+                {
+                    "nombre": "Dash Parr",
+                    "pelicula": "The Incredibles",
+                    "rol": "Secundario",
+                    "especie": "Superhumano",
+                    "poderes": "Sí",
+                    "año": 2004,
+                    "género": "Masculino",
+                    "emojis": [
+                        "⚡",
+                        "🏃",
+                        "🦸",
+                        "👦",
+                        "💨"
+                    ]
+                },
+                {
+                    "nombre": "Jack-Jack Parr",
+                    "pelicula": "The Incredibles",
+                    "rol": "Secundario",
+                    "especie": "Superhumano",
+                    "poderes": "Sí",
+                    "año": 2004,
+                    "género": "Masculino",
+                    "emojis": [
+                        "👶",
+                        "🔥",
+                        "👹",
+                        "🦸",
+                        "✨"
+                    ]
+                },
+                {
+                    "nombre": "Frozone",
+                    "pelicula": "The Incredibles",
+                    "rol": "Secundario",
+                    "especie": "Superhumano",
+                    "poderes": "Sí",
+                    "año": 2004,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🧊",
+                        "🦸",
+                        "❄️",
+                        "🕶️",
+                        "💙"
+                    ]
+                },
+                {
+                    "nombre": "Edna Mode",
+                    "pelicula": "The Incredibles",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2004,
+                    "género": "Femenino",
+                    "emojis": [
+                        "👓",
+                        "✂️",
+                        "👗",
+                        "🖤",
+                        "💅"
+                    ]
+                },
+                {
+                    "nombre": "Syndrome",
+                    "pelicula": "The Incredibles",
+                    "rol": "Villano",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2004,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🔥",
+                        "🦸",
+                        "🤖",
+                        "🧠",
+                        "😈"
+                    ]
+                },
+                {
+                    "nombre": "Mirage",
+                    "pelicula": "The Incredibles",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2004,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🕶️",
+                        "📱",
+                        "🏝️",
+                        "🖤",
+                        "⚠️"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Incredibles 2",
+            "year": 2018,
+            "characters": [
+                {
+                    "nombre": "Evelyn Deavor",
+                    "pelicula": "Incredibles 2",
+                    "rol": "Villano",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2018,
+                    "género": "Femenino",
+                    "emojis": [
+                        "💻",
+                        "🌀",
+                        "🖥️",
+                        "😈",
+                        "🕶️"
+                    ]
+                },
+                {
+                    "nombre": "Winston Deavor",
+                    "pelicula": "Incredibles 2",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2018,
+                    "género": "Masculino",
+                    "emojis": [
+                        "📺",
+                        "🤝",
+                        "💼",
+                        "🦸",
+                        "🏙️"
+                    ]
+                },
+                {
+                    "nombre": "Voyd",
+                    "pelicula": "Incredibles 2",
+                    "rol": "Secundario",
+                    "especie": "Superhumano",
+                    "poderes": "Sí",
+                    "año": 2018,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🌀",
+                        "🦸‍♀️",
+                        "🟣",
+                        "✨",
+                        "🚪"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Cars",
+            "year": 2006,
+            "characters": [
+                {
+                    "nombre": "Lightning McQueen",
+                    "pelicula": "Cars",
+                    "rol": "Protagonista",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2006,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🏎️",
+                        "95️⃣",
+                        "⚡",
+                        "🏁",
+                        "🔴"
+                    ]
+                },
+                {
+                    "nombre": "Mater",
+                    "pelicula": "Cars",
+                    "rol": "Protagonista",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2006,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🚚",
+                        "🪝",
+                        "🤎",
+                        "😄",
+                        "🛞"
+                    ]
+                },
+                {
+                    "nombre": "Sally Carrera",
+                    "pelicula": "Cars",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2006,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🚗",
+                        "💙",
+                        "🏨",
+                        "❤️",
+                        "🛣️"
+                    ]
+                },
+                {
+                    "nombre": "Doc Hudson",
+                    "pelicula": "Cars",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2006,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🚘",
+                        "🏁",
+                        "👴",
+                        "🩺",
+                        "💙"
+                    ]
+                },
+                {
+                    "nombre": "Chick Hicks",
+                    "pelicula": "Cars",
+                    "rol": "Villano",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2006,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🏎️",
+                        "86️⃣",
+                        "😈",
+                        "🏁",
+                        "💚"
+                    ]
+                },
+                {
+                    "nombre": "Luigi",
+                    "pelicula": "Cars",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2006,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🚗",
+                        "🇮🇹",
+                        "🛞",
+                        "😄",
+                        "🏪"
+                    ]
+                },
+                {
+                    "nombre": "Guido",
+                    "pelicula": "Cars",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2006,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🔧",
+                        "🛞",
+                        "🇮🇹",
+                        "💨",
+                        "🚗"
+                    ]
+                },
+                {
+                    "nombre": "Sheriff",
+                    "pelicula": "Cars",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2006,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🚓",
+                        "⭐",
+                        "🛣️",
+                        "😐",
+                        "🏜️"
+                    ]
+                },
+                {
+                    "nombre": "Flo",
+                    "pelicula": "Cars",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2006,
+                    "género": "Femenino",
+                    "emojis": [
+                        "⛽",
+                        "💜",
+                        "💋",
+                        "🛣️",
+                        "🚗"
+                    ]
+                },
+                {
+                    "nombre": "Ramon",
+                    "pelicula": "Cars",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2006,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🎨",
+                        "🚗",
+                        "✨",
+                        "🟣",
+                        "😎"
+                    ]
+                },
+                {
+                    "nombre": "Mack",
+                    "pelicula": "Cars",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2006,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🚛",
+                        "😴",
+                        "95️⃣",
+                        "🛣️",
+                        "🔴"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Cars 2",
+            "year": 2011,
+            "characters": [
+                {
+                    "nombre": "Finn McMissile",
+                    "pelicula": "Cars 2",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2011,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🚗",
+                        "🕵️",
+                        "🇬🇧",
+                        "🌊",
+                        "🔫"
+                    ]
+                },
+                {
+                    "nombre": "Holley Shiftwell",
+                    "pelicula": "Cars 2",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2011,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🚗",
+                        "🕵️‍♀️",
+                        "💻",
+                        "🇬🇧",
+                        "💜"
+                    ]
+                },
+                {
+                    "nombre": "Francesco Bernoulli",
+                    "pelicula": "Cars 2",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2011,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🏎️",
+                        "🇮🇹",
+                        "🏁",
+                        "😎",
+                        "🔴"
+                    ]
+                },
+                {
+                    "nombre": "Miles Axlerod",
+                    "pelicula": "Cars 2",
+                    "rol": "Villano",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2011,
+                    "género": "Masculino",
+                    "emojis": [
+                        "⚡",
+                        "🛢️",
+                        "😈",
+                        "🏁",
+                        "🔋"
+                    ]
+                },
+                {
+                    "nombre": "Professor Zündapp",
+                    "pelicula": "Cars 2",
+                    "rol": "Villano",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2011,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🧪",
+                        "🧐",
+                        "🔫",
+                        "😈",
+                        "🚗"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Cars 3",
+            "year": 2017,
+            "characters": [
+                {
+                    "nombre": "Cruz Ramirez",
+                    "pelicula": "Cars 3",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2017,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🏎️",
+                        "💛",
+                        "95️⃣",
+                        "🏁",
+                        "🔥"
+                    ]
+                },
+                {
+                    "nombre": "Jackson Storm",
+                    "pelicula": "Cars 3",
+                    "rol": "Villano",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2017,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🏎️",
+                        "⚫",
+                        "20️⃣",
+                        "🏁",
+                        "😈"
+                    ]
+                },
+                {
+                    "nombre": "Smokey",
+                    "pelicula": "Cars 3",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2017,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🛠️",
+                        "🏁",
+                        "👴",
+                        "🚗",
+                        "🧡"
+                    ]
+                },
+                {
+                    "nombre": "Miss Fritter",
+                    "pelicula": "Cars 3",
+                    "rol": "Secundario",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2017,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🚌",
+                        "⚠️",
+                        "😈",
+                        "🏟️",
+                        "🍳"
+                    ]
+                },
+                {
+                    "nombre": "Sterling",
+                    "pelicula": "Cars 3",
+                    "rol": "Villano",
+                    "especie": "Vehículo",
+                    "poderes": "No",
+                    "año": 2017,
+                    "género": "Masculino",
+                    "emojis": [
+                        "💼",
+                        "🚗",
+                        "✨",
+                        "💰",
+                        "😐"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Ratatouille",
+            "year": 2007,
+            "characters": [
+                {
+                    "nombre": "Remy",
+                    "pelicula": "Ratatouille",
+                    "rol": "Protagonista",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2007,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐀",
+                        "👨‍🍳",
+                        "🧀",
+                        "🍲",
+                        "🇫🇷"
+                    ]
+                },
+                {
+                    "nombre": "Alfredo Linguini",
+                    "pelicula": "Ratatouille",
+                    "rol": "Protagonista",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2007,
+                    "género": "Masculino",
+                    "emojis": [
+                        "👨‍🍳",
+                        "🍝",
+                        "🐀",
+                        "😅",
+                        "🇫🇷"
+                    ]
+                },
+                {
+                    "nombre": "Colette Tatou",
+                    "pelicula": "Ratatouille",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2007,
+                    "género": "Femenino",
+                    "emojis": [
+                        "👩‍🍳",
+                        "🔪",
+                        "🇫🇷",
+                        "💪",
+                        "❤️"
+                    ]
+                },
+                {
+                    "nombre": "Chef Skinner",
+                    "pelicula": "Ratatouille",
+                    "rol": "Villano",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2007,
+                    "género": "Masculino",
+                    "emojis": [
+                        "👨‍🍳",
+                        "📏",
+                        "😠",
+                        "🍷",
+                        "💰"
+                    ]
+                },
+                {
+                    "nombre": "Anton Ego",
+                    "pelicula": "Ratatouille",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2007,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🖋️",
+                        "🍽️",
+                        "😐",
+                        "⚰️",
+                        "🇫🇷"
+                    ]
+                },
+                {
+                    "nombre": "Emile",
+                    "pelicula": "Ratatouille",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2007,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐀",
+                        "🧀",
+                        "🍇",
+                        "😋",
+                        "🤎"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "WALL-E",
+            "year": 2008,
+            "characters": [
+                {
+                    "nombre": "WALL-E",
+                    "pelicula": "WALL-E",
+                    "rol": "Protagonista",
+                    "especie": "Robot",
+                    "poderes": "No",
+                    "año": 2008,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🤖",
+                        "🗑️",
+                        "🌱",
+                        "📺",
+                        "❤️"
+                    ]
+                },
+                {
+                    "nombre": "EVE",
+                    "pelicula": "WALL-E",
+                    "rol": "Protagonista",
+                    "especie": "Robot",
+                    "poderes": "No",
+                    "año": 2008,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🤖",
+                        "🤍",
+                        "🌱",
+                        "🚀",
+                        "💙"
+                    ]
+                },
+                {
+                    "nombre": "AUTO",
+                    "pelicula": "WALL-E",
+                    "rol": "Villano",
+                    "especie": "Robot",
+                    "poderes": "No",
+                    "año": 2008,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🛞",
+                        "🚀",
+                        "🟥",
+                        "😈",
+                        "🧭"
+                    ]
+                },
+                {
+                    "nombre": "Captain B. McCrea",
+                    "pelicula": "WALL-E",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2008,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🧑‍✈️",
+                        "🚀",
+                        "📘",
+                        "🌍",
+                        "🫡"
+                    ]
+                },
+                {
+                    "nombre": "M-O",
+                    "pelicula": "WALL-E",
+                    "rol": "Secundario",
+                    "especie": "Robot",
+                    "poderes": "No",
+                    "año": 2008,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🤖",
+                        "🧼",
+                        "🧽",
+                        "😤",
+                        "✨"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Up",
+            "year": 2009,
+            "characters": [
+                {
+                    "nombre": "Carl Fredricksen",
+                    "pelicula": "Up",
+                    "rol": "Protagonista",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2009,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🎈",
+                        "👴",
+                        "🏠",
+                        "🧭",
+                        "👓"
+                    ]
+                },
+                {
+                    "nombre": "Russell",
+                    "pelicula": "Up",
+                    "rol": "Protagonista",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2009,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🏕️",
+                        "👦",
+                        "🎈",
+                        "🍫",
+                        "🦜"
+                    ]
+                },
+                {
+                    "nombre": "Dug",
+                    "pelicula": "Up",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2009,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐶",
+                        "🦴",
+                        "🎙️",
+                        "😄",
+                        "🛩️"
+                    ]
+                },
+                {
+                    "nombre": "Kevin",
+                    "pelicula": "Up",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2009,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🦜",
+                        "🥚",
+                        "🌈",
+                        "🏞️",
+                        "💨"
+                    ]
+                },
+                {
+                    "nombre": "Charles Muntz",
+                    "pelicula": "Up",
+                    "rol": "Villano",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2009,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🛩️",
+                        "👴",
+                        "🐶",
+                        "🏞️",
+                        "😈"
+                    ]
+                },
+                {
+                    "nombre": "Ellie Fredricksen",
+                    "pelicula": "Up",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2009,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🎈",
+                        "❤️",
+                        "📖",
+                        "🏠",
+                        "🌄"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Brave",
+            "year": 2012,
+            "characters": [
+                {
+                    "nombre": "Merida",
+                    "pelicula": "Brave",
+                    "rol": "Protagonista",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2012,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🏹",
+                        "👩‍🦰",
+                        "🐻",
+                        "👑",
+                        "🍃"
+                    ]
+                },
+                {
+                    "nombre": "Queen Elinor",
+                    "pelicula": "Brave",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2012,
+                    "género": "Femenino",
+                    "emojis": [
+                        "👑",
+                        "🐻",
+                        "👩",
+                        "🏰",
+                        "💚"
+                    ]
+                },
+                {
+                    "nombre": "King Fergus",
+                    "pelicula": "Brave",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2012,
+                    "género": "Masculino",
+                    "emojis": [
+                        "👑",
+                        "🪓",
+                        "🐻",
+                        "🦵",
+                        "🍗"
+                    ]
+                },
+                {
+                    "nombre": "Mor'du",
+                    "pelicula": "Brave",
+                    "rol": "Villano",
+                    "especie": "Bestia",
+                    "poderes": "No",
+                    "año": 2012,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐻",
+                        "👹",
+                        "🌫️",
+                        "⚔️",
+                        "🖤"
+                    ]
+                },
+                {
+                    "nombre": "The Witch",
+                    "pelicula": "Brave",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "Sí",
+                    "año": 2012,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🧙‍♀️",
+                        "🪄",
+                        "🐻",
+                        "🪵",
+                        "🧪"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Inside Out",
+            "year": 2015,
+            "characters": [
+                {
+                    "nombre": "Joy",
+                    "pelicula": "Inside Out",
+                    "rol": "Protagonista",
+                    "especie": "Emoción",
+                    "poderes": "Sí",
+                    "año": 2015,
+                    "género": "Femenino",
+                    "emojis": [
+                        "😊",
+                        "✨",
+                        "💛",
+                        "🧠",
+                        "🌈"
+                    ]
+                },
+                {
+                    "nombre": "Sadness",
+                    "pelicula": "Inside Out",
+                    "rol": "Protagonista",
+                    "especie": "Emoción",
+                    "poderes": "Sí",
+                    "año": 2015,
+                    "género": "Femenino",
+                    "emojis": [
+                        "😢",
+                        "🔵",
+                        "🧠",
+                        "💧",
+                        "🧣"
+                    ]
+                },
+                {
+                    "nombre": "Anger",
+                    "pelicula": "Inside Out",
+                    "rol": "Secundario",
+                    "especie": "Emoción",
+                    "poderes": "Sí",
+                    "año": 2015,
+                    "género": "Masculino",
+                    "emojis": [
+                        "😡",
+                        "🔥",
+                        "🧠",
+                        "🟥",
+                        "💢"
+                    ]
+                },
+                {
+                    "nombre": "Fear",
+                    "pelicula": "Inside Out",
+                    "rol": "Secundario",
+                    "especie": "Emoción",
+                    "poderes": "Sí",
+                    "año": 2015,
+                    "género": "Masculino",
+                    "emojis": [
+                        "😨",
+                        "🟣",
+                        "🧠",
+                        "⚡",
+                        "👀"
+                    ]
+                },
+                {
+                    "nombre": "Disgust",
+                    "pelicula": "Inside Out",
+                    "rol": "Secundario",
+                    "especie": "Emoción",
+                    "poderes": "Sí",
+                    "año": 2015,
+                    "género": "Femenino",
+                    "emojis": [
+                        "😒",
+                        "🟢",
+                        "🧠",
+                        "💄",
+                        "🥦"
+                    ]
+                },
+                {
+                    "nombre": "Bing Bong",
+                    "pelicula": "Inside Out",
+                    "rol": "Secundario",
+                    "especie": "Amigo Imaginario",
+                    "poderes": "No",
+                    "año": 2015,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐘",
+                        "🍬",
+                        "🚀",
+                        "😢",
+                        "🌈"
+                    ]
+                },
+                {
+                    "nombre": "Riley Andersen",
+                    "pelicula": "Inside Out",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2015,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🏒",
+                        "👧",
+                        "🧠",
+                        "🏠",
+                        "😕"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Inside Out 2",
+            "year": 2024,
+            "characters": [
+                {
+                    "nombre": "Anxiety",
+                    "pelicula": "Inside Out 2",
+                    "rol": "Secundario",
+                    "especie": "Emoción",
+                    "poderes": "Sí",
+                    "año": 2024,
+                    "género": "Femenino",
+                    "emojis": [
+                        "😰",
+                        "🧠",
+                        "🟠",
+                        "📋",
+                        "⚡"
+                    ]
+                },
+                {
+                    "nombre": "Envy",
+                    "pelicula": "Inside Out 2",
+                    "rol": "Secundario",
+                    "especie": "Emoción",
+                    "poderes": "Sí",
+                    "año": 2024,
+                    "género": "Femenino",
+                    "emojis": [
+                        "😍",
+                        "🧠",
+                        "🟦",
+                        "✨",
+                        "👀"
+                    ]
+                },
+                {
+                    "nombre": "Ennui",
+                    "pelicula": "Inside Out 2",
+                    "rol": "Secundario",
+                    "especie": "Emoción",
+                    "poderes": "Sí",
+                    "año": 2024,
+                    "género": "Femenino",
+                    "emojis": [
+                        "😒",
+                        "🧠",
+                        "🟪",
+                        "📱",
+                        "🛋️"
+                    ]
+                },
+                {
+                    "nombre": "Embarrassment",
+                    "pelicula": "Inside Out 2",
+                    "rol": "Secundario",
+                    "especie": "Emoción",
+                    "poderes": "Sí",
+                    "año": 2024,
+                    "género": "Masculino",
+                    "emojis": [
+                        "😳",
+                        "🧠",
+                        "🩷",
+                        "🫣",
+                        "💦"
+                    ]
+                },
+                {
+                    "nombre": "Nostalgia",
+                    "pelicula": "Inside Out 2",
+                    "rol": "Secundario",
+                    "especie": "Emoción",
+                    "poderes": "Sí",
+                    "año": 2024,
+                    "género": "Femenino",
+                    "emojis": [
+                        "📻",
+                        "🧠",
+                        "🟣",
+                        "🪑",
+                        "🫖"
+                    ]
+                },
+                {
+                    "nombre": "Val Ortiz",
+                    "pelicula": "Inside Out 2",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2024,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🏒",
+                        "⭐",
+                        "😎",
+                        "👧",
+                        "💙"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "The Good Dinosaur",
+            "year": 2015,
+            "characters": [
+                {
+                    "nombre": "Arlo",
+                    "pelicula": "The Good Dinosaur",
+                    "rol": "Protagonista",
+                    "especie": "Dinosaurio",
+                    "poderes": "No",
+                    "año": 2015,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🦕",
+                        "🌽",
+                        "🌩️",
+                        "👣",
+                        "💚"
+                    ]
+                },
+                {
+                    "nombre": "Spot",
+                    "pelicula": "The Good Dinosaur",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2015,
+                    "género": "Masculino",
+                    "emojis": [
+                        "👦",
+                        "🐾",
+                        "🦴",
+                        "🏞️",
+                        "😄"
+                    ]
+                },
+                {
+                    "nombre": "Butch",
+                    "pelicula": "The Good Dinosaur",
+                    "rol": "Secundario",
+                    "especie": "Dinosaurio",
+                    "poderes": "No",
+                    "año": 2015,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🦖",
+                        "🤠",
+                        "🏜️",
+                        "🐄",
+                        "⭐"
+                    ]
+                },
+                {
+                    "nombre": "Ramsey",
+                    "pelicula": "The Good Dinosaur",
+                    "rol": "Secundario",
+                    "especie": "Dinosaurio",
+                    "poderes": "No",
+                    "año": 2015,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🦖",
+                        "🏇",
+                        "🏜️",
+                        "🌪️",
+                        "💚"
+                    ]
+                },
+                {
+                    "nombre": "Nash",
+                    "pelicula": "The Good Dinosaur",
+                    "rol": "Secundario",
+                    "especie": "Dinosaurio",
+                    "poderes": "No",
+                    "año": 2015,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🦖",
+                        "🤠",
+                        "🏜️",
+                        "🌪️",
+                        "🤎"
+                    ]
+                },
+                {
+                    "nombre": "Thunderclap",
+                    "pelicula": "The Good Dinosaur",
+                    "rol": "Villano",
+                    "especie": "Dinosaurio",
+                    "poderes": "No",
+                    "año": 2015,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🦅",
+                        "⛈️",
+                        "😈",
+                        "🪶",
+                        "⚡"
+                    ]
+                },
+                {
+                    "nombre": "Poppa Henry",
+                    "pelicula": "The Good Dinosaur",
+                    "rol": "Secundario",
+                    "especie": "Dinosaurio",
+                    "poderes": "No",
+                    "año": 2015,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🦕",
+                        "🌽",
+                        "👨‍👦",
+                        "🏞️",
+                        "💚"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finding Dory",
+            "year": 2016,
+            "characters": [
+                {
+                    "nombre": "Hank",
+                    "pelicula": "Finding Dory",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2016,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐙",
+                        "🎭",
+                        "🪣",
+                        "😒",
+                        "🧠"
+                    ]
+                },
+                {
+                    "nombre": "Destiny",
+                    "pelicula": "Finding Dory",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2016,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🦈",
+                        "🔵",
+                        "😄",
+                        "🌊",
+                        "❤️"
+                    ]
+                },
+                {
+                    "nombre": "Bailey",
+                    "pelicula": "Finding Dory",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2016,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐋",
+                        "📡",
+                        "😅",
+                        "🌊",
+                        "🔊"
+                    ]
+                },
+                {
+                    "nombre": "Jenny",
+                    "pelicula": "Finding Dory",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2016,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🐟",
+                        "💙",
+                        "👩‍👧",
+                        "🌊",
+                        "❤️"
+                    ]
+                },
+                {
+                    "nombre": "Charlie",
+                    "pelicula": "Finding Dory",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2016,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐟",
+                        "💙",
+                        "👨‍👧",
+                        "🌊",
+                        "🫂"
+                    ]
+                },
+                {
+                    "nombre": "Becky",
+                    "pelicula": "Finding Dory",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2016,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🪿",
+                        "😳",
+                        "🌊",
+                        "🪣",
+                        "😆"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Coco",
+            "year": 2017,
+            "characters": [
+                {
+                    "nombre": "Miguel Rivera",
+                    "pelicula": "Coco",
+                    "rol": "Protagonista",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2017,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🎸",
+                        "💀",
+                        "👦",
+                        "🌼",
+                        "🎶"
+                    ]
+                },
+                {
+                    "nombre": "Héctor",
+                    "pelicula": "Coco",
+                    "rol": "Protagonista",
+                    "especie": "Esqueleto",
+                    "poderes": "No",
+                    "año": 2017,
+                    "género": "Masculino",
+                    "emojis": [
+                        "💀",
+                        "🎸",
+                        "👒",
+                        "🎶",
+                        "🧡"
+                    ]
+                },
+                {
+                    "nombre": "Ernesto de la Cruz",
+                    "pelicula": "Coco",
+                    "rol": "Villano",
+                    "especie": "Esqueleto",
+                    "poderes": "No",
+                    "año": 2017,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🎤",
+                        "💀",
+                        "⭐",
+                        "😈",
+                        "🎸"
+                    ]
+                },
+                {
+                    "nombre": "Mamá Imelda",
+                    "pelicula": "Coco",
+                    "rol": "Secundario",
+                    "especie": "Esqueleto",
+                    "poderes": "No",
+                    "año": 2017,
+                    "género": "Femenino",
+                    "emojis": [
+                        "💀",
+                        "👠",
+                        "🧵",
+                        "👵",
+                        "💜"
+                    ]
+                },
+                {
+                    "nombre": "Mamá Coco",
+                    "pelicula": "Coco",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2017,
+                    "género": "Femenino",
+                    "emojis": [
+                        "👵",
+                        "🌼",
+                        "🎶",
+                        "🖼️",
+                        "❤️"
+                    ]
+                },
+                {
+                    "nombre": "Dante",
+                    "pelicula": "Coco",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2017,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐕",
+                        "💀",
+                        "👅",
+                        "🌈",
+                        "😄"
+                    ]
+                },
+                {
+                    "nombre": "Pepita",
+                    "pelicula": "Coco",
+                    "rol": "Secundario",
+                    "especie": "Criatura Espiritual",
+                    "poderes": "Sí",
+                    "año": 2017,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🐆",
+                        "🪽",
+                        "🌈",
+                        "🔥",
+                        "💀"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Onward",
+            "year": 2020,
+            "characters": [
+                {
+                    "nombre": "Ian Lightfoot",
+                    "pelicula": "Onward",
+                    "rol": "Protagonista",
+                    "especie": "Elfo",
+                    "poderes": "Sí",
+                    "año": 2020,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🪄",
+                        "🧝",
+                        "💙",
+                        "🎲",
+                        "✨"
+                    ]
+                },
+                {
+                    "nombre": "Barley Lightfoot",
+                    "pelicula": "Onward",
+                    "rol": "Protagonista",
+                    "especie": "Elfo",
+                    "poderes": "No",
+                    "año": 2020,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🚐",
+                        "🧝",
+                        "🎲",
+                        "⚔️",
+                        "💜"
+                    ]
+                },
+                {
+                    "nombre": "Laurel Lightfoot",
+                    "pelicula": "Onward",
+                    "rol": "Secundario",
+                    "especie": "Elfo",
+                    "poderes": "No",
+                    "año": 2020,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🧝",
+                        "❤️",
+                        "🚗",
+                        "👩",
+                        "🏠"
+                    ]
+                },
+                {
+                    "nombre": "Wilden Lightfoot",
+                    "pelicula": "Onward",
+                    "rol": "Secundario",
+                    "especie": "Elfo",
+                    "poderes": "No",
+                    "año": 2020,
+                    "género": "Masculino",
+                    "emojis": [
+                        "👨",
+                        "🧝",
+                        "🦵",
+                        "✨",
+                        "💙"
+                    ]
+                },
+                {
+                    "nombre": "Corey",
+                    "pelicula": "Onward",
+                    "rol": "Secundario",
+                    "especie": "Cíclope",
+                    "poderes": "No",
+                    "año": 2020,
+                    "género": "Femenino",
+                    "emojis": [
+                        "👮‍♀️",
+                        "👁️",
+                        "🏍️",
+                        "💪",
+                        "🚨"
+                    ]
+                },
+                {
+                    "nombre": "The Manticore",
+                    "pelicula": "Onward",
+                    "rol": "Secundario",
+                    "especie": "Criatura Mitológica",
+                    "poderes": "Sí",
+                    "año": 2020,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🦁",
+                        "🦇",
+                        "🪄",
+                        "🍔",
+                        "⚔️"
+                    ]
+                },
+                {
+                    "nombre": "Colt Bronco",
+                    "pelicula": "Onward",
+                    "rol": "Secundario",
+                    "especie": "Centauro",
+                    "poderes": "No",
+                    "año": 2020,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐎",
+                        "👮",
+                        "👨",
+                        "🚔",
+                        "🧹"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Soul",
+            "year": 2020,
+            "characters": [
+                {
+                    "nombre": "Joe Gardner",
+                    "pelicula": "Soul",
+                    "rol": "Protagonista",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2020,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🎹",
+                        "🎷",
+                        "🧢",
+                        "🌀",
+                        "🎶"
+                    ]
+                },
+                {
+                    "nombre": "22",
+                    "pelicula": "Soul",
+                    "rol": "Protagonista",
+                    "especie": "Alma",
+                    "poderes": "No",
+                    "año": 2020,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🔢",
+                        "🌀",
+                        "✨",
+                        "😒",
+                        "🌌"
+                    ]
+                },
+                {
+                    "nombre": "Terry",
+                    "pelicula": "Soul",
+                    "rol": "Villano",
+                    "especie": "Ser Cósmico",
+                    "poderes": "Sí",
+                    "año": 2020,
+                    "género": "Masculino",
+                    "emojis": [
+                        "📊",
+                        "🧮",
+                        "🌀",
+                        "😈",
+                        "🌌"
+                    ]
+                },
+                {
+                    "nombre": "Moonwind",
+                    "pelicula": "Soul",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2020,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🌀",
+                        "🧘",
+                        "🛳️",
+                        "🌌",
+                        "🎩"
+                    ]
+                },
+                {
+                    "nombre": "Dorothea Williams",
+                    "pelicula": "Soul",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2020,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🎷",
+                        "🎶",
+                        "🎤",
+                        "🖤",
+                        "✨"
+                    ]
+                },
+                {
+                    "nombre": "Dez",
+                    "pelicula": "Soul",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2020,
+                    "género": "Masculino",
+                    "emojis": [
+                        "✂️",
+                        "😄",
+                        "💈",
+                        "🗣️",
+                        "🧡"
+                    ]
+                },
+                {
+                    "nombre": "Jerry",
+                    "pelicula": "Soul",
+                    "rol": "Secundario",
+                    "especie": "Ser Cósmico",
+                    "poderes": "Sí",
+                    "año": 2020,
+                    "género": "Masculino",
+                    "emojis": [
+                        "✨",
+                        "🌀",
+                        "🌌",
+                        "🧠",
+                        "😌"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Luca",
+            "year": 2021,
+            "characters": [
+                {
+                    "nombre": "Luca Paguro",
+                    "pelicula": "Luca",
+                    "rol": "Protagonista",
+                    "especie": "Monstruo Marino",
+                    "poderes": "No",
+                    "año": 2021,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🌊",
+                        "🛵",
+                        "🐟",
+                        "👦",
+                        "⭐"
+                    ]
+                },
+                {
+                    "nombre": "Alberto Scorfano",
+                    "pelicula": "Luca",
+                    "rol": "Protagonista",
+                    "especie": "Monstruo Marino",
+                    "poderes": "No",
+                    "año": 2021,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🌊",
+                        "🛵",
+                        "👦",
+                        "😎",
+                        "⭐"
+                    ]
+                },
+                {
+                    "nombre": "Giulia Marcovaldo",
+                    "pelicula": "Luca",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2021,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🚲",
+                        "📚",
+                        "🧡",
+                        "🏁",
+                        "👧"
+                    ]
+                },
+                {
+                    "nombre": "Massimo Marcovaldo",
+                    "pelicula": "Luca",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2021,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐟",
+                        "🍝",
+                        "💪",
+                        "👨",
+                        "❤️"
+                    ]
+                },
+                {
+                    "nombre": "Ercole Visconti",
+                    "pelicula": "Luca",
+                    "rol": "Villano",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2021,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🚲",
+                        "🏆",
+                        "😈",
+                        "🍝",
+                        "💪"
+                    ]
+                },
+                {
+                    "nombre": "Daniela Paguro",
+                    "pelicula": "Luca",
+                    "rol": "Secundario",
+                    "especie": "Monstruo Marino",
+                    "poderes": "No",
+                    "año": 2021,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🌊",
+                        "🐟",
+                        "👩",
+                        "❤️",
+                        "🪸"
+                    ]
+                },
+                {
+                    "nombre": "Lorenzo Paguro",
+                    "pelicula": "Luca",
+                    "rol": "Secundario",
+                    "especie": "Monstruo Marino",
+                    "poderes": "No",
+                    "año": 2021,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🌊",
+                        "🐟",
+                        "👨",
+                        "🦀",
+                        "🛶"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Turning Red",
+            "year": 2022,
+            "characters": [
+                {
+                    "nombre": "Meilin Lee",
+                    "pelicula": "Turning Red",
+                    "rol": "Protagonista",
+                    "especie": "Humano",
+                    "poderes": "Sí",
+                    "año": 2022,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🐼",
+                        "📚",
+                        "🎤",
+                        "🩸",
+                        "🧧"
+                    ]
+                },
+                {
+                    "nombre": "Ming Lee",
+                    "pelicula": "Turning Red",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "Sí",
+                    "año": 2022,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🐼",
+                        "👩",
+                        "🧧",
+                        "🏯",
+                        "😤"
+                    ]
+                },
+                {
+                    "nombre": "Jin Lee",
+                    "pelicula": "Turning Red",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Masculino",
+                    "emojis": [
+                        "👨",
+                        "🍜",
+                        "❤️",
+                        "🐼",
+                        "😌"
+                    ]
+                },
+                {
+                    "nombre": "Miriam",
+                    "pelicula": "Turning Red",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🧢",
+                        "🎶",
+                        "💚",
+                        "👧",
+                        "🤝"
+                    ]
+                },
+                {
+                    "nombre": "Priya",
+                    "pelicula": "Turning Red",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Femenino",
+                    "emojis": [
+                        "📚",
+                        "🖤",
+                        "🎶",
+                        "👧",
+                        "😐"
+                    ]
+                },
+                {
+                    "nombre": "Abby",
+                    "pelicula": "Turning Red",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Femenino",
+                    "emojis": [
+                        "💥",
+                        "🎶",
+                        "💜",
+                        "👧",
+                        "😆"
+                    ]
+                },
+                {
+                    "nombre": "Tyler",
+                    "pelicula": "Turning Red",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🎶",
+                        "🧢",
+                        "👦",
+                        "💸",
+                        "😎"
+                    ]
+                },
+                {
+                    "nombre": "Devon",
+                    "pelicula": "Turning Red",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Masculino",
+                    "emojis": [
+                        "☕",
+                        "😎",
+                        "👦",
+                        "❤️",
+                        "✨"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Lightyear",
+            "year": 2022,
+            "characters": [
+                {
+                    "nombre": "Buzz Lightyear",
+                    "pelicula": "Lightyear",
+                    "rol": "Protagonista",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🚀",
+                        "🧑‍🚀",
+                        "⭐",
+                        "🔫",
+                        "🟢"
+                    ]
+                },
+                {
+                    "nombre": "Sox",
+                    "pelicula": "Lightyear",
+                    "rol": "Secundario",
+                    "especie": "Robot",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐱",
+                        "🤖",
+                        "💊",
+                        "💻",
+                        "🧡"
+                    ]
+                },
+                {
+                    "nombre": "Izzy Hawthorne",
+                    "pelicula": "Lightyear",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🚀",
+                        "🧑‍🚀",
+                        "💜",
+                        "⚔️",
+                        "⭐"
+                    ]
+                },
+                {
+                    "nombre": "Alisha Hawthorne",
+                    "pelicula": "Lightyear",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🚀",
+                        "🧑‍🚀",
+                        "🫡",
+                        "❤️",
+                        "⭐"
+                    ]
+                },
+                {
+                    "nombre": "Mo Morrison",
+                    "pelicula": "Lightyear",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🚀",
+                        "😅",
+                        "🔧",
+                        "⭐",
+                        "🧢"
+                    ]
+                },
+                {
+                    "nombre": "Darby Steel",
+                    "pelicula": "Lightyear",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🚀",
+                        "🧨",
+                        "😐",
+                        "⭐",
+                        "🔧"
+                    ]
+                },
+                {
+                    "nombre": "Zurg",
+                    "pelicula": "Lightyear",
+                    "rol": "Villano",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🤖",
+                        "🟣",
+                        "😈",
+                        "🚀",
+                        "🔫"
+                    ]
+                },
+                {
+                    "nombre": "Commander Burnside",
+                    "pelicula": "Lightyear",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2022,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🧑‍🚀",
+                        "🫡",
+                        "🛡️",
+                        "🚀",
+                        "🌍"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Elemental",
+            "year": 2023,
+            "characters": [
+                {
+                    "nombre": "Ember Lumen",
+                    "pelicula": "Elemental",
+                    "rol": "Protagonista",
+                    "especie": "Elemento",
+                    "poderes": "No",
+                    "año": 2023,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🔥",
+                        "👧",
+                        "🏙️",
+                        "❤️",
+                        "🧡"
+                    ]
+                },
+                {
+                    "nombre": "Wade Ripple",
+                    "pelicula": "Elemental",
+                    "rol": "Protagonista",
+                    "especie": "Elemento",
+                    "poderes": "No",
+                    "año": 2023,
+                    "género": "Masculino",
+                    "emojis": [
+                        "💧",
+                        "👦",
+                        "🏙️",
+                        "❤️",
+                        "💙"
+                    ]
+                },
+                {
+                    "nombre": "Bernie Lumen",
+                    "pelicula": "Elemental",
+                    "rol": "Secundario",
+                    "especie": "Elemento",
+                    "poderes": "No",
+                    "año": 2023,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🔥",
+                        "👨",
+                        "🏪",
+                        "❤️",
+                        "🧡"
+                    ]
+                },
+                {
+                    "nombre": "Cinder Lumen",
+                    "pelicula": "Elemental",
+                    "rol": "Secundario",
+                    "especie": "Elemento",
+                    "poderes": "No",
+                    "año": 2023,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🔥",
+                        "👩",
+                        "💍",
+                        "🏪",
+                        "🧡"
+                    ]
+                },
+                {
+                    "nombre": "Clod",
+                    "pelicula": "Elemental",
+                    "rol": "Secundario",
+                    "especie": "Elemento",
+                    "poderes": "No",
+                    "año": 2023,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🌱",
+                        "😄",
+                        "🏙️",
+                        "🟢",
+                        "🌼"
+                    ]
+                },
+                {
+                    "nombre": "Gale Cumulus",
+                    "pelicula": "Elemental",
+                    "rol": "Secundario",
+                    "especie": "Elemento",
+                    "poderes": "No",
+                    "año": 2023,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🌬️",
+                        "☁️",
+                        "🏟️",
+                        "✨",
+                        "🩵"
+                    ]
+                },
+                {
+                    "nombre": "Brook Ripple",
+                    "pelicula": "Elemental",
+                    "rol": "Secundario",
+                    "especie": "Elemento",
+                    "poderes": "No",
+                    "año": 2023,
+                    "género": "Femenino",
+                    "emojis": [
+                        "💧",
+                        "👩",
+                        "❤️",
+                        "🏙️",
+                        "🩵"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Elio",
+            "year": 2025,
+            "characters": [
+                {
+                    "nombre": "Elio Solis",
+                    "pelicula": "Elio",
+                    "rol": "Protagonista",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2025,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🛸",
+                        "👦",
+                        "🌌",
+                        "📡",
+                        "✨"
+                    ]
+                },
+                {
+                    "nombre": "Olga Solis",
+                    "pelicula": "Elio",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2025,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🪖",
+                        "🛸",
+                        "👩",
+                        "❤️",
+                        "🌍"
+                    ]
+                },
+                {
+                    "nombre": "Glordon",
+                    "pelicula": "Elio",
+                    "rol": "Secundario",
+                    "especie": "Alienígena",
+                    "poderes": "No",
+                    "año": 2025,
+                    "género": "Masculino",
+                    "emojis": [
+                        "👽",
+                        "🛡️",
+                        "💚",
+                        "🤝",
+                        "🌌"
+                    ]
+                },
+                {
+                    "nombre": "Lord Grigon",
+                    "pelicula": "Elio",
+                    "rol": "Villano",
+                    "especie": "Alienígena",
+                    "poderes": "No",
+                    "año": 2025,
+                    "género": "Masculino",
+                    "emojis": [
+                        "👽",
+                        "⚔️",
+                        "😈",
+                        "🌌",
+                        "🟣"
+                    ]
+                },
+                {
+                    "nombre": "Ambassador Questa",
+                    "pelicula": "Elio",
+                    "rol": "Secundario",
+                    "especie": "Alienígena",
+                    "poderes": "Sí",
+                    "año": 2025,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🐉",
+                        "🌿",
+                        "👁️",
+                        "🌌",
+                        "✨"
+                    ]
+                },
+                {
+                    "nombre": "Ooooo",
+                    "pelicula": "Elio",
+                    "rol": "Secundario",
+                    "especie": "Supercomputadora",
+                    "poderes": "Sí",
+                    "año": 2025,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🫧",
+                        "💻",
+                        "🌌",
+                        "✨",
+                        "🔮"
+                    ]
+                },
+                {
+                    "nombre": "Gunther Melmac",
+                    "pelicula": "Elio",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2025,
+                    "género": "Masculino",
+                    "emojis": [
+                        "📻",
+                        "🛰️",
+                        "👨",
+                        "🤔",
+                        "🛸"
+                    ]
+                },
+                {
+                    "nombre": "Ambassador Helix",
+                    "pelicula": "Elio",
+                    "rol": "Secundario",
+                    "especie": "Alienígena",
+                    "poderes": "No",
+                    "año": 2025,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🪨",
+                        "🌌",
+                        "🗣️",
+                        "🎉",
+                        "👽"
+                    ]
+                },
+                {
+                    "nombre": "Ambassador Tegmen",
+                    "pelicula": "Elio",
+                    "rol": "Secundario",
+                    "especie": "Alienígena",
+                    "poderes": "No",
+                    "año": 2025,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🪨",
+                        "👽",
+                        "🌌",
+                        "😐",
+                        "⚫"
+                    ]
+                },
+                {
+                    "nombre": "Ambassador Mira",
+                    "pelicula": "Elio",
+                    "rol": "Secundario",
+                    "especie": "Alienígena",
+                    "poderes": "No",
+                    "año": 2025,
+                    "género": "Femenino",
+                    "emojis": [
+                        "👽",
+                        "👑",
+                        "🌌",
+                        "💗",
+                        "🛡️"
+                    ]
+                },
+                {
+                    "nombre": "Ambassador Auva",
+                    "pelicula": "Elio",
+                    "rol": "Secundario",
+                    "especie": "Alienígena",
+                    "poderes": "No",
+                    "año": 2025,
+                    "género": "Femenino",
+                    "emojis": [
+                        "👽",
+                        "📘",
+                        "✨",
+                        "🌌",
+                        "💛"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Hoppers",
+            "year": 2026,
+            "characters": [
+                {
+                    "nombre": "Mabel Tanaka",
+                    "pelicula": "Hoppers",
+                    "rol": "Protagonista",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2026,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🦫",
+                        "🛹",
+                        "🌲",
+                        "💚",
+                        "🧪"
+                    ]
+                },
+                {
+                    "nombre": "King George",
+                    "pelicula": "Hoppers",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2026,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🦫",
+                        "👑",
+                        "🌲",
+                        "😄",
+                        "🪵"
+                    ]
+                },
+                {
+                    "nombre": "Mayor Jerry Generazzo",
+                    "pelicula": "Hoppers",
+                    "rol": "Villano",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2026,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🧑‍💼",
+                        "🛣️",
+                        "😈",
+                        "🏙️",
+                        "🗳️"
+                    ]
+                },
+                {
+                    "nombre": "Dr. Sam",
+                    "pelicula": "Hoppers",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2026,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🧪",
+                        "🔬",
+                        "😰",
+                        "🧠",
+                        "🦫"
+                    ]
+                },
+                {
+                    "nombre": "Titus",
+                    "pelicula": "Hoppers",
+                    "rol": "Villano",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2026,
+                    "género": "Masculino",
+                    "emojis": [
+                        "🐜",
+                        "👑",
+                        "😈",
+                        "⚔️",
+                        "🟥"
+                    ]
+                },
+                {
+                    "nombre": "Insect Queen",
+                    "pelicula": "Hoppers",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2026,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🐜",
+                        "👑",
+                        "⚫",
+                        "🌲",
+                        "🧠"
+                    ]
+                },
+                {
+                    "nombre": "Grandma Tanaka",
+                    "pelicula": "Hoppers",
+                    "rol": "Secundario",
+                    "especie": "Humano",
+                    "poderes": "No",
+                    "año": 2026,
+                    "género": "Femenino",
+                    "emojis": [
+                        "👵",
+                        "🌲",
+                        "💚",
+                        "🐾",
+                        "🤝"
+                    ]
+                },
+                {
+                    "nombre": "Ellen",
+                    "pelicula": "Hoppers",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2026,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🐻",
+                        "🌲",
+                        "😠",
+                        "🤝",
+                        "🍯"
+                    ]
+                },
+                {
+                    "nombre": "Diane",
+                    "pelicula": "Hoppers",
+                    "rol": "Secundario",
+                    "especie": "Animal",
+                    "poderes": "No",
+                    "año": 2026,
+                    "género": "Femenino",
+                    "emojis": [
+                        "🦈",
+                        "🕶️",
+                        "🎯",
+                        "🌊",
+                        "💼"
+                    ]
+                }
+            ]
+        }
+    ]
+}

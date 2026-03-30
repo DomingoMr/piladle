@@ -1,0 +1,16 @@
+{
+  "Woody": [
+    {
+      "id": "crd_woody01",
+      "nombre_carta": "Woody, Loyal Sheriff",
+      "url_imagen": "https://placehold.co/400x600/FFD700/000000?text=Woody+Card"
+    }
+  ],
+  "Buzz Lightyear": [
+    {
+      "id": "crd_buzz01",
+      "nombre_carta": "Buzz Lightyear, Space Ranger",
+      "url_imagen": "https://placehold.co/400x600/8DB532/FFFFFF?text=Buzz+Card"
+    }
+  ]
+}

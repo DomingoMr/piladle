@@ -1,0 +1,8 @@
+name = "once-upon-a-guess"
+compatibility_date = "2023-11-20"
+pages_build_output_dir = "dist"
+
+[[kv_namespaces]]
+binding = "RANKINGS"
+id = "92c8d971fe324321a5498ff43b310a07"
+preview_id = "92c8d971fe324321a5498ff43b310a07"
