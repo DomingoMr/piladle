@@ -22,7 +22,7 @@ export function ModeButton({ name, subtitle, icon, active, onClick }: ModeButton
       </div>
       <div className="mode-content">
         <span className="mode-name">{name}</span>
-        <span className="mode-subtitle">{active ? subtitle : 'coming...'}</span>
+        <span className="mode-subtitle">{active ? subtitle : 'Soon...'}</span>
       </div>
     </button>
   );
@@ -109,7 +109,7 @@ export function Home({ onSelectMode, onOpenReport, onOpenRanking }: HomeProps) {
           name="Card"
           subtitle="Whose card is this?"
           icon={<img src="/lorcana.png" alt="Lorcana" style={{ width: '65%', height: '65%', objectFit: 'contain', backgroundColor: 'transparent', filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.5))' }} />}
-          active={true}
+          active={false}
           onClick={() => onSelectMode('card')}
         />
       </section>

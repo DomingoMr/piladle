@@ -386,7 +386,7 @@ export default function App() {
                           name={nextMode.name}
                           subtitle={nextMode.subtitle}
                           icon={nextMode.icon}
-                          active={true}
+                          active={!isCard}
                           onClick={() => navigateTo(nextMode.id)}
                         />
                       </div>
@@ -461,7 +461,7 @@ export default function App() {
                           name={nextMode.name}
                           subtitle={nextMode.subtitle}
                           icon={nextMode.icon}
-                          active={true}
+                          active={!isCard}
                           onClick={() => navigateTo(nextMode.id)}
                         />
                       </div>
