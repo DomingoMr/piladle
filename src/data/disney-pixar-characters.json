@@ -111,7 +111,7 @@
                     ]
                 },
                 {
-                    "nombre": "Mr. Potato Head",
+                    "nombre": "Mr Potato Head",
                     "pelicula": "Toy Story",
                     "rol": "Secundario",
                     "especie": "Juguete",
@@ -213,7 +213,7 @@
                     ]
                 },
                 {
-                    "nombre": "Mrs. Potato Head",
+                    "nombre": "Mrs Potato Head",
                     "pelicula": "Toy Story 2",
                     "rol": "Secundario",
                     "especie": "Juguete",
@@ -331,7 +331,7 @@
                     ]
                 },
                 {
-                    "nombre": "Mr. Pricklepants",
+                    "nombre": "Mr Pricklepants",
                     "pelicula": "Toy Story 3",
                     "rol": "Secundario",
                     "especie": "Juguete",
@@ -429,22 +429,6 @@
                         "🎯",
                         "🧸",
                         "💛",
-                        "😆"
-                    ]
-                },
-                {
-                    "nombre": "Bunny",
-                    "pelicula": "Toy Story 4",
-                    "rol": "Secundario",
-                    "especie": "Juguete",
-                    "poderes": "No",
-                    "año": 2019,
-                    "género": "Masculino",
-                    "emojis": [
-                        "🐰",
-                        "🎯",
-                        "🧸",
-                        "💚",
                         "😆"
                     ]
                 },
@@ -585,12 +569,12 @@
             ]
         },
         {
-            "title": "Monsters, Inc.",
+            "title": "Monsters Inc",
             "year": 2001,
             "characters": [
                 {
-                    "nombre": "James P. Sullivan",
-                    "pelicula": "Monsters, Inc.",
+                    "nombre": "James P Sullivan",
+                    "pelicula": "Monsters Inc",
                     "rol": "Protagonista",
                     "especie": "Monstruo",
                     "poderes": "No",
@@ -606,7 +590,7 @@
                 },
                 {
                     "nombre": "Mike Wazowski",
-                    "pelicula": "Monsters, Inc.",
+                    "pelicula": "Monsters Inc",
                     "rol": "Protagonista",
                     "especie": "Monstruo",
                     "poderes": "No",
@@ -622,7 +606,7 @@
                 },
                 {
                     "nombre": "Boo",
-                    "pelicula": "Monsters, Inc.",
+                    "pelicula": "Monsters Inc",
                     "rol": "Secundario",
                     "especie": "Humano",
                     "poderes": "No",
@@ -638,7 +622,7 @@
                 },
                 {
                     "nombre": "Randall Boggs",
-                    "pelicula": "Monsters, Inc.",
+                    "pelicula": "Monsters Inc",
                     "rol": "Villano",
                     "especie": "Monstruo",
                     "poderes": "Sí",
@@ -654,7 +638,7 @@
                 },
                 {
                     "nombre": "Celia Mae",
-                    "pelicula": "Monsters, Inc.",
+                    "pelicula": "Monsters Inc",
                     "rol": "Secundario",
                     "especie": "Monstruo",
                     "poderes": "No",
@@ -670,7 +654,7 @@
                 },
                 {
                     "nombre": "Roz",
-                    "pelicula": "Monsters, Inc.",
+                    "pelicula": "Monsters Inc",
                     "rol": "Secundario",
                     "especie": "Monstruo",
                     "poderes": "No",
@@ -685,8 +669,8 @@
                     ]
                 },
                 {
-                    "nombre": "Henry J. Waternoose",
-                    "pelicula": "Monsters, Inc.",
+                    "nombre": "Henry J Waternoose",
+                    "pelicula": "Monsters Inc",
                     "rol": "Villano",
                     "especie": "Monstruo",
                     "poderes": "No",
@@ -841,7 +825,7 @@
             "year": 2004,
             "characters": [
                 {
-                    "nombre": "Mr. Incredible",
+                    "nombre": "Mr Incredible",
                     "pelicula": "The Incredibles",
                     "rol": "Protagonista",
                     "especie": "Superhumano",
@@ -1291,7 +1275,7 @@
                     ]
                 },
                 {
-                    "nombre": "Professor Zündapp",
+                    "nombre": "Professor Zundapp",
                     "pelicula": "Cars 2",
                     "rol": "Villano",
                     "especie": "Vehículo",
@@ -1533,23 +1517,7 @@
                     ]
                 },
                 {
-                    "nombre": "AUTO",
-                    "pelicula": "WALL-E",
-                    "rol": "Villano",
-                    "especie": "Robot",
-                    "poderes": "No",
-                    "año": 2008,
-                    "género": "Masculino",
-                    "emojis": [
-                        "🛞",
-                        "🚀",
-                        "🟥",
-                        "😈",
-                        "🧭"
-                    ]
-                },
-                {
-                    "nombre": "Captain B. McCrea",
+                    "nombre": "Captain B McCrea",
                     "pelicula": "WALL-E",
                     "rol": "Secundario",
                     "especie": "Humano",
@@ -1664,22 +1632,6 @@
                         "🐶",
                         "🏞️",
                         "😈"
-                    ]
-                },
-                {
-                    "nombre": "Ellie Fredricksen",
-                    "pelicula": "Up",
-                    "rol": "Secundario",
-                    "especie": "Humano",
-                    "poderes": "No",
-                    "año": 2009,
-                    "género": "Femenino",
-                    "emojis": [
-                        "🎈",
-                        "❤️",
-                        "📖",
-                        "🏠",
-                        "🌄"
                     ]
                 }
             ]
@@ -2231,7 +2183,7 @@
                     ]
                 },
                 {
-                    "nombre": "Héctor",
+                    "nombre": "Hector",
                     "pelicula": "Coco",
                     "rol": "Protagonista",
                     "especie": "Esqueleto",
@@ -2263,7 +2215,7 @@
                     ]
                 },
                 {
-                    "nombre": "Mamá Imelda",
+                    "nombre": "Mama Imelda",
                     "pelicula": "Coco",
                     "rol": "Secundario",
                     "especie": "Esqueleto",
@@ -2279,7 +2231,7 @@
                     ]
                 },
                 {
-                    "nombre": "Mamá Coco",
+                    "nombre": "Mama Coco",
                     "pelicula": "Coco",
                     "rol": "Secundario",
                     "especie": "Humano",
@@ -2528,22 +2480,6 @@
                         "🎤",
                         "🖤",
                         "✨"
-                    ]
-                },
-                {
-                    "nombre": "Dez",
-                    "pelicula": "Soul",
-                    "rol": "Secundario",
-                    "especie": "Humano",
-                    "poderes": "No",
-                    "año": 2020,
-                    "género": "Masculino",
-                    "emojis": [
-                        "✂️",
-                        "😄",
-                        "💈",
-                        "🗣️",
-                        "🧡"
                     ]
                 },
                 {
@@ -2821,7 +2757,7 @@
             "year": 2022,
             "characters": [
                 {
-                    "nombre": "Buzz Lightyear",
+                    "nombre": "Buzz Lightyear (Lightyear)",
                     "pelicula": "Lightyear",
                     "rol": "Protagonista",
                     "especie": "Humano",
@@ -2837,7 +2773,7 @@
                     ]
                 },
                 {
-                    "nombre": "Sox",
+                    "nombre": "Sox (Lightyear)",
                     "pelicula": "Lightyear",
                     "rol": "Secundario",
                     "especie": "Robot",
@@ -2853,7 +2789,7 @@
                     ]
                 },
                 {
-                    "nombre": "Izzy Hawthorne",
+                    "nombre": "Izzy Hawthorne (Lightyear)",
                     "pelicula": "Lightyear",
                     "rol": "Secundario",
                     "especie": "Humano",
@@ -2869,7 +2805,7 @@
                     ]
                 },
                 {
-                    "nombre": "Alisha Hawthorne",
+                    "nombre": "Alisha Hawthorne (Lightyear)",
                     "pelicula": "Lightyear",
                     "rol": "Secundario",
                     "especie": "Humano",
@@ -2885,7 +2821,7 @@
                     ]
                 },
                 {
-                    "nombre": "Mo Morrison",
+                    "nombre": "Mo Morrison (Lightyear)",
                     "pelicula": "Lightyear",
                     "rol": "Secundario",
                     "especie": "Humano",
@@ -2901,7 +2837,7 @@
                     ]
                 },
                 {
-                    "nombre": "Darby Steel",
+                    "nombre": "Darby Steel (Lightyear)",
                     "pelicula": "Lightyear",
                     "rol": "Secundario",
                     "especie": "Humano",
@@ -2917,7 +2853,7 @@
                     ]
                 },
                 {
-                    "nombre": "Zurg",
+                    "nombre": "Zurg (Lightyear)",
                     "pelicula": "Lightyear",
                     "rol": "Villano",
                     "especie": "Humano",
@@ -2933,7 +2869,7 @@
                     ]
                 },
                 {
-                    "nombre": "Commander Burnside",
+                    "nombre": "Commander Burnside (Lightyear)",
                     "pelicula": "Lightyear",
                     "rol": "Secundario",
                     "especie": "Humano",
@@ -3201,22 +3137,6 @@
                     ]
                 },
                 {
-                    "nombre": "Ambassador Tegmen",
-                    "pelicula": "Elio",
-                    "rol": "Secundario",
-                    "especie": "Alienígena",
-                    "poderes": "No",
-                    "año": 2025,
-                    "género": "Masculino",
-                    "emojis": [
-                        "🪨",
-                        "👽",
-                        "🌌",
-                        "😐",
-                        "⚫"
-                    ]
-                },
-                {
                     "nombre": "Ambassador Mira",
                     "pelicula": "Elio",
                     "rol": "Secundario",
@@ -3230,22 +3150,6 @@
                         "🌌",
                         "💗",
                         "🛡️"
-                    ]
-                },
-                {
-                    "nombre": "Ambassador Auva",
-                    "pelicula": "Elio",
-                    "rol": "Secundario",
-                    "especie": "Alienígena",
-                    "poderes": "No",
-                    "año": 2025,
-                    "género": "Femenino",
-                    "emojis": [
-                        "👽",
-                        "📘",
-                        "✨",
-                        "🌌",
-                        "💛"
                     ]
                 }
             ]
@@ -3303,7 +3207,7 @@
                     ]
                 },
                 {
-                    "nombre": "Dr. Sam",
+                    "nombre": "Dr Sam",
                     "pelicula": "Hoppers",
                     "rol": "Secundario",
                     "especie": "Humano",
@@ -3351,22 +3255,6 @@
                     ]
                 },
                 {
-                    "nombre": "Grandma Tanaka",
-                    "pelicula": "Hoppers",
-                    "rol": "Secundario",
-                    "especie": "Humano",
-                    "poderes": "No",
-                    "año": 2026,
-                    "género": "Femenino",
-                    "emojis": [
-                        "👵",
-                        "🌲",
-                        "💚",
-                        "🐾",
-                        "🤝"
-                    ]
-                },
-                {
                     "nombre": "Ellen",
                     "pelicula": "Hoppers",
                     "rol": "Secundario",
@@ -3380,22 +3268,6 @@
                         "😠",
                         "🤝",
                         "🍯"
-                    ]
-                },
-                {
-                    "nombre": "Diane",
-                    "pelicula": "Hoppers",
-                    "rol": "Secundario",
-                    "especie": "Animal",
-                    "poderes": "No",
-                    "año": 2026,
-                    "género": "Femenino",
-                    "emojis": [
-                        "🦈",
-                        "🕶️",
-                        "🎯",
-                        "🌊",
-                        "💼"
                     ]
                 }
             ]
