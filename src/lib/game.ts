@@ -11,6 +11,18 @@ function getLocalDayIndex(): number {
 }
 
 /**
+ * Returns the current date in YYYY-MM-DD format based on the user's local midnight.
+ * This ensures that rankings and challenges are always in sync regardless of UTC time.
+ */
+export function getGameDateString(): string {
+  const d = new Date();
+  const year = d.getFullYear();
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+/**
  * Shared logic for character-based modes to guarantee no collisions on the same day.
  * We use a large prime jump for randomization and fixed offsets to space them out.
  */

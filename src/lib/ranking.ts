@@ -1,3 +1,5 @@
+import { getGameDateString } from './game';
+
 export type RankingEntry = {
   name: string;
   score: number;
@@ -19,7 +21,7 @@ export function calculateScore(attempts: number): number {
 export const ApiRankingService = {
   async getRanking(mode: string): Promise<RankingEntry[]> {
     try {
-      const date = new Date().toISOString().split('T')[0];
+      const date = getGameDateString();
       console.log(`[Frontend] Fetching ranking for mode: ${mode}, date: ${date}`);
       const res = await fetch(`/api/rankings?mode=${mode}&date=${date}`);
       if (!res.ok) {
@@ -37,7 +39,7 @@ export const ApiRankingService = {
 
   async saveScore(mode: string, score: number, name: string, playerId: string): Promise<RankingEntry[]> {
     try {
-      const date = new Date().toISOString().split('T')[0];
+      const date = getGameDateString();
       console.log(`[Frontend] Saving score for mode: ${mode}, score: ${score}`);
       const res = await fetch('/api/rankings', {
         method: 'POST',

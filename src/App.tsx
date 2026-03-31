@@ -11,7 +11,7 @@ import { SongDisplay } from './components/SongDisplay';
 import { ReportModal } from './components/ReportModal';
 import lorcanaPool from './data/lorcana_pool.json';
 import { CardDisplay } from './components/CardDisplay';
-import { getDailyCharacter, getDailyEmojiCharacter, getDailySilhouetteCharacter, getDailySong, getDailyCard } from './lib/game';
+import { getDailyCharacter, getDailyEmojiCharacter, getDailySilhouetteCharacter, getDailySong, getDailyCard, getGameDateString } from './lib/game';
 import { calculateScore, GameMode } from './lib/ranking';
 import { RankingSection } from './components/RankingSection';
 import { RankingModal } from './components/RankingModal';
@@ -26,11 +26,6 @@ const CARD_STORAGE_KEY = 'ouag-card-state-v1';
 const USERNAME_STORAGE_KEY = 'ouag-username-v1';
 const SCORES_STORAGE_KEY = 'ouag-scores-v1';
 const PLAYERID_STORAGE_KEY = 'ouag-player-id-v1';
-
-function todayKey(): string {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-}
 
 function formatDate(): string {
   return new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
@@ -53,7 +48,7 @@ function loadStoredGuesses(characters: DisneyCharacter[], storageKey: string): D
     const raw = localStorage.getItem(storageKey);
     if (!raw) return [];
     const parsed = JSON.parse(raw) as DailyStoredState;
-    if (parsed.date !== todayKey()) return [];
+    if (parsed.date !== getGameDateString()) return [];
     return (parsed.guessIds ?? [])
       .map((id) => characters.find((c) => c.id === id))
       .filter(Boolean) as DisneyCharacter[];
@@ -66,12 +61,12 @@ function loadStoredSongState(): SongStoredState {
   if (typeof window === 'undefined') return { date: '', guessedSongIds: [], hasWon: false };
   try {
     const raw = localStorage.getItem(SONG_STORAGE_KEY);
-    if (!raw) return { date: todayKey(), guessedSongIds: [], hasWon: false };
+    if (!raw) return { date: getGameDateString(), guessedSongIds: [], hasWon: false };
     const parsed = JSON.parse(raw) as SongStoredState;
-    if (parsed.date !== todayKey()) return { date: todayKey(), guessedSongIds: [], hasWon: false };
+    if (parsed.date !== getGameDateString()) return { date: getGameDateString(), guessedSongIds: [], hasWon: false };
     return parsed;
   } catch {
-    return { date: todayKey(), guessedSongIds: [], hasWon: false };
+    return { date: getGameDateString(), guessedSongIds: [], hasWon: false };
   }
 }
 
@@ -170,7 +165,7 @@ export default function App() {
     if (!raw) return {};
     try {
       const parsed = JSON.parse(raw);
-      if (parsed.date !== todayKey()) return {};
+      if (parsed.date !== getGameDateString()) return {};
       return parsed.scores || {};
     } catch { return {}; }
   });
@@ -197,7 +192,7 @@ export default function App() {
   // Sync Classic Guesses to Storage
   useEffect(() => {
     localStorage.setItem(CLASSIC_STORAGE_KEY, JSON.stringify({
-      date: todayKey(),
+      date: getGameDateString(),
       guessIds: classicGuesses.map((g) => g.id),
     }));
   }, [classicGuesses]);
@@ -205,7 +200,7 @@ export default function App() {
   // Sync Emoji Guesses to Storage
   useEffect(() => {
     localStorage.setItem(EMOJI_STORAGE_KEY, JSON.stringify({
-      date: todayKey(),
+      date: getGameDateString(),
       guessIds: emojiGuesses.map((g) => g.id),
     }));
   }, [emojiGuesses]);
@@ -213,7 +208,7 @@ export default function App() {
   // Sync Silhouette Guesses to Storage
   useEffect(() => {
     localStorage.setItem(SILHOUETTE_STORAGE_KEY, JSON.stringify({
-      date: todayKey(),
+      date: getGameDateString(),
       guessIds: silhouetteGuesses.map((g) => g.id),
     }));
   }, [silhouetteGuesses]);
@@ -221,7 +216,7 @@ export default function App() {
   // Sync Card Guesses to Storage
   useEffect(() => {
     localStorage.setItem(CARD_STORAGE_KEY, JSON.stringify({
-      date: todayKey(),
+      date: getGameDateString(),
       guessIds: cardGuesses.map((g) => g.id),
     }));
   }, [cardGuesses]);
@@ -229,7 +224,7 @@ export default function App() {
   // Sync Song state to Storage
   useEffect(() => {
     localStorage.setItem(SONG_STORAGE_KEY, JSON.stringify({
-      date: todayKey(),
+      date: getGameDateString(),
       guessedSongIds: songGuessedIds,
       hasWon: songHasWon,
     }));
@@ -238,7 +233,7 @@ export default function App() {
   // Sync Scores to Storage
   useEffect(() => {
     localStorage.setItem(SCORES_STORAGE_KEY, JSON.stringify({
-      date: todayKey(),
+      date: getGameDateString(),
       scores: dailyScores,
     }));
   }, [dailyScores]);
