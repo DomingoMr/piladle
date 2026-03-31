@@ -413,18 +413,20 @@ img.character-avatar {
 }
 
 .win-banner {
-  padding: 16px 26px;
-  border-radius: 16px;
-  border: 2px solid #ffd700;
-  background: linear-gradient(135deg, rgba(20, 50, 90, 0.95), rgba(10, 25, 45, 0.98));
-  color: #fffacd;
-  font-size: 1.2rem;
-  font-weight: 700;
+  padding: 24px 32px;
+  border-radius: 20px;
+  border: 4px solid #4C9EEB;
+  background: #ffffff;
+  color: #333333;
+  font-size: 1.5rem;
+  font-weight: 800;
   text-align: center;
-  box-shadow: 0 12px 36px rgba(255, 215, 0, 0.35), inset 0 0 20px rgba(255, 215, 0, 0.15);
-  animation: banner-float 3s ease-in-out infinite, banner-glow 2s alternate infinite;
-  text-shadow: 0 2px 8px rgba(255, 215, 0, 0.6);
+  box-shadow: 0 10px 0 #2C7AAB, var(--shadow);
+  animation: banner-float 3s ease-in-out infinite;
   letter-spacing: 0.02em;
+  font-family: 'Fredoka', sans-serif;
+  width: min(640px, 100%);
+  margin: 12px 0;
 }
 
 @keyframes banner-float {
@@ -436,16 +438,6 @@ img.character-avatar {
 
   50% {
     transform: translateY(-6px);
-  }
-}
-
-@keyframes banner-glow {
-  from {
-    box-shadow: 0 12px 24px rgba(255, 215, 0, 0.25), inset 0 0 15px rgba(255, 215, 0, 0.1);
-  }
-
-  to {
-    box-shadow: 0 12px 48px rgba(255, 215, 0, 0.5), inset 0 0 30px rgba(255, 215, 0, 0.25);
   }
 }
 
@@ -1703,34 +1695,36 @@ img.character-avatar {
 
 /* Win reveal */
 .song-win-reveal {
-  width: 100%;
+  width: min(640px, 100%);
   text-align: center;
-  padding: 24px 28px;
+  padding: 32px;
   border-radius: 20px;
-  border: 2px solid #ffd700;
-  background: linear-gradient(135deg, rgba(20, 50, 90, 0.95), rgba(10, 25, 45, 0.98));
-  box-shadow: 0 12px 36px rgba(255, 215, 0, 0.35), inset 0 0 20px rgba(255, 215, 0, 0.1);
-  animation: banner-float 3s ease-in-out infinite, banner-glow 2s alternate infinite;
+  border: 4px solid #4C9EEB;
+  background: #ffffff;
+  box-shadow: 0 10px 0 #2C7AAB, var(--shadow);
+  animation: banner-float 3s ease-in-out infinite;
+  margin: 12px 0;
+  font-family: 'Fredoka', sans-serif;
 }
 
 .song-win-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 800;
-  color: #fffacd;
-  text-shadow: 0 2px 8px rgba(255, 215, 0, 0.6);
-  margin-bottom: 8px;
+  color: #4C9EEB;
+  margin-bottom: 12px;
 }
 
 .song-win-song {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  color: var(--blue-100);
-  margin-bottom: 4px;
+  color: #333333;
+  margin-bottom: 6px;
 }
 
 .song-win-movie {
-  font-size: 0.88rem;
-  color: rgba(210, 230, 255, 0.7);
+  font-size: 1rem;
+  color: #666666;
+  font-weight: 500;
 }
 
 /* Search wrap */
