@@ -38,7 +38,7 @@ export function Home({ onSelectMode, onOpenReport, onOpenRanking }: HomeProps) {
   return (
     <main className="home-stage">
       <header className="home-header">
-        <img src="/logo.png" alt="Mousdle - The daily character guessing challenge" className="home-logo" />
+        <img src="/logo.png" alt="Pixadle - The daily Disney Pixar guessing challenge" className="home-logo" />
         <h1 className="home-subtitle">Guess the daily Disney Pixar character</h1>
       </header>
 

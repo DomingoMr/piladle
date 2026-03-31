@@ -38,69 +38,69 @@ export function ReportModal({ isOpen, onClose }: ReportModalProps) {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
           },
-          body: JSON.stringify({
-            type,
-            message,
-            contact,
-            _subject: `New Mousdle Report: ${type.toUpperCase()}`,
-          })
-        });
+            body: JSON.stringify({
+              type,
+              message,
+              contact,
+              _subject: `New Pixadle Report: ${type.toUpperCase()}`,
+            })
+          });
 
-        if (!response.ok) throw new Error('Submission failed');
-      } catch (error) {
-        console.error('Error submitting report:', error);
-        // We still show success to the user to not break "magic", 
-        // but in a real app you might show an error.
+          if (!response.ok) throw new Error('Submission failed');
+        } catch (error) {
+          console.error('Error submitting report:', error);
+          // We still show success to the user to not break "magic", 
+          // but in a real app you might show an error.
+        }
       }
-    }
 
-    setIsSubmitting(false);
-    setIsSuccess(true);
+      setIsSubmitting(false);
+      setIsSuccess(true);
 
-    // Auto-close after success
-    setTimeout(() => {
-      onClose();
-      // Reset state after closing animation
+      // Auto-close after success
       setTimeout(() => {
-        setIsSuccess(false);
-        setMessage('');
-        setContact('');
-        setType('bug');
-      }, 300);
-    }, 2000);
-  };
+        onClose();
+        // Reset state after closing animation
+        setTimeout(() => {
+          setIsSuccess(false);
+          setMessage('');
+          setContact('');
+          setType('bug');
+        }, 300);
+      }, 2000);
+    };
 
-  return (
-    <AnimatePresence>
-      {isOpen && (
-        <motion.div
-          className="hint-modal-overlay"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          onClick={onClose}
-          style={{ zIndex: 10000 }}
-        >
+    return (
+      <AnimatePresence>
+        {isOpen && (
           <motion.div
-            className="hint-modal-content report-modal-content"
-            initial={{ opacity: 0, scale: 0.9, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.9, y: 20 }}
-            transition={{ type: 'spring', bounce: 0.4 }}
-            onClick={(e) => e.stopPropagation()}
+            className="hint-modal-overlay"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={onClose}
+            style={{ zIndex: 10000 }}
           >
-            <button className="hint-modal-close" onClick={onClose} aria-label="Close">&times;</button>
+            <motion.div
+              className="hint-modal-content report-modal-content"
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: 20 }}
+              transition={{ type: 'spring', bounce: 0.4 }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button className="hint-modal-close" onClick={onClose} aria-label="Close">&times;</button>
 
-            {isSuccess ? (
-              <div className="report-success">
-                <div className="report-success-icon">✨</div>
-                <h3 className="hint-modal-title">Thank You!</h3>
-                <p className="hint-modal-subtitle">Your report has been sent successfully. Thanks for helping us improve!</p>
-              </div>
-            ) : (
-              <>
-                <h3 className="hint-modal-title">Report Bug / Improvement</h3>
-                <p className="hint-modal-subtitle">Help us make Mousdle more magical</p>
+              {isSuccess ? (
+                <div className="report-success">
+                  <div className="report-success-icon">✨</div>
+                  <h3 className="hint-modal-title">Thank You!</h3>
+                  <p className="hint-modal-subtitle">Your report has been sent successfully. Thanks for helping us improve!</p>
+                </div>
+              ) : (
+                <>
+                  <h3 className="hint-modal-title">Report Bug / Improvement</h3>
+                  <p className="hint-modal-subtitle">Help us make Pixadle more magical</p>
 
                 <form className="report-form" onSubmit={handleSubmit}>
                   <div className="report-field">

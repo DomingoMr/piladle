@@ -1,6 +1,6 @@
-# Once Upon a Guess (Mousdle)
+# Pixadle (The Disney Pixar Guessing Game)
 
-A comprehensive, front-end-heavy Disney character guessing game inspired by daily comparison-based puzzles. This repository serves as a fully functional game and a reference architecture for building daily, multi-mode guessing games using React and Cloudflare.
+A comprehensive, front-end-heavy Disney Pixar character guessing game inspired by daily comparison-based puzzles. This repository serves as a fully functional game and a reference architecture for building daily, multi-mode guessing games using React and Cloudflare.
 
 ## 📖 Table of Contents
 - [Game Mechanics & Modes](#game-mechanics--modes)
@@ -15,16 +15,16 @@ A comprehensive, front-end-heavy Disney character guessing game inspired by dail
 
 ## 🎮 Game Mechanics & Modes
 
-**Once Upon a Guess** is built around a daily puzzle format. Every day, the hidden answers reset, and all players globally receive the same puzzles. 
+**Pixadle** is built around a daily puzzle format. Every day, the hidden answers reset, and all players globally receive the same puzzles. 
 
 The game features a progression system where completing one mode unlocks the next challenge in the sequence. Progress for the day is continuously saved in the browser.
 
 ### The 5 Game Modes
-1. **Classic Mode (✨):** The core experience. Players search and guess a Disney character. Feedback is given via a grid comparing the guessed character's traits (Movie, Species, Gender, Role, etc.) against the hidden character using Green (Match), Yellow (Partial Match), and Red (No Match) tiles.
+1. **Classic Mode (✨):** The core experience. Players search and guess a Disney Pixar character. Feedback is given via a grid comparing the guessed character's traits (Movie, Species, Gender, Role, etc.) against the hidden character using Green (Match), Yellow (Partial Match), and Red (No Match) tiles.
 2. **Emoji Mode (😃):** Players are presented with a series of emojis that represent a specific character's story or traits. They must deduce the character based only on these visual clues.
 3. **Silhouette Mode (👤):** An image of a character is completely blacked out. Players must guess whose silhouette it is.
-4. **Song Mode (🎵):** An audio challenge. Players listen to small snippets of a Disney song and must guess the track and its corresponding movie.
-5. **Card Mode (🃏):** Featuring Disney Lorcana trading cards. A portion of the card is shown, and the player guesses who the featured character is.
+4. **Song Mode (🎵):** An audio challenge. Players listen to small snippets of a Disney Pixar song and must guess the track and its corresponding movie.
+5. **Card Mode (🃏):** Featuring Disney Pixar themed trading cards. A portion of the card is shown, and the player guesses who the featured character is.
 
 ### Hints & Scoring
 - **Hints:** In Classic, Emoji, Silhouette, and Card modes, a "Magical Hint" is unlocked after a certain number of failed attempts (usually 4 or 5).
@@ -40,8 +40,8 @@ If you are looking to build a similar daily game, here are the core architectura
 Instead of relying on a backend to tell the frontend what today's character is, the game uses a deterministic algorithm based on the current date (`lib/game.ts`). 
 - A unique string (e.g., `YYYY-MM-DD`) is combined with a "salt".
 - This string is hashed/converted into an integer.
-- The integer is used as an index to pick an item from the static JSON datasets.
-- **Result:** Everyone playing on `2026-03-30` will generate the exact same index and get the exact same puzzles without needing a database.
+- This integer is used as an index to pick an item from the static JSON datasets.
+- **Result:** Everyone playing on a given day will generate the exact same index and get the exact same puzzles without needing a database.
 
 ### 2. State Persistence
 All progress is heavily reliant on `localStorage` (`App.tsx`). This allows players to close the tab and return later without losing their guesses.
@@ -49,7 +49,7 @@ All progress is heavily reliant on `localStorage` (`App.tsx`). This allows playe
 - Every time the app loads, it checks if the saved data's date matches `today`. If it doesn't, the storage is wiped, and a new game begins.
 
 ### 3. Static Data Archives
-All reference data (characters, songs, Lorcana cards) are stored as static `.json` files in `src/data/`. This makes the bundle slightly larger but entirely eliminates database read costs for the core game loop. A combobox (`SearchCombobox.tsx`) filters these local JSON files for autocompletion during guessing.
+All reference data (characters, songs, cards) are stored as static `.json` files in `src/data/`. This makes the bundle slightly larger but entirely eliminates database read costs for the core game loop. A combobox (`SearchCombobox.tsx`) filters these local JSON files for autocompletion during guessing.
 
 ---
 
@@ -79,8 +79,8 @@ The project prioritizes performance, visual excellence, and zero-cost scaling us
 │   │   ├── RankingModal.tsx   # Leaderboard UI
 │   │   └── *Display.tsx       # Mode-specific game boards (Emoji, Song, etc.)
 │   ├── data/                  # Static JSON datasets
-│   │   ├── disney-characters.json
-│   │   ├── disney-songs.json
+│   │   ├── disney-pixar-characters.json
+│   │   ├── disney-pixar-songs.json
 │   │   └── lorcana_pool.json
 │   ├── lib/                   # Core business logic
 │   │   ├── game.ts            # Daily seeding & selection logic
@@ -97,22 +97,6 @@ The project prioritizes performance, visual excellence, and zero-cost scaling us
 ## ☁️ Cloudflare Backend & Rankings
 
 While the core game requires no backend, the **Leaderboard** system uses **Cloudflare Pages Functions** paired with **Cloudflare KV**, creating incredibly fast, globally distributed APIs.
-
-### How the API Works (`functions/api/rankings.ts`)
-Cloudflare Pages automatically routes any requests from `/api/*` to the `functions/api/` folder.
-
-- **GET `/api/rankings?mode=classic&date=YYYY-MM-DD`**
-  Fetches the leaderboard for a specific mode on a specific day from KV.
-- **POST `/api/rankings`**
-  Submits a locally calculated score. It handles:
-  - Checking if the `playerId` (a UUID generated locally) already has a score for today.
-  - Updating the score if the new score is higher.
-  - Sorting the list and truncating it to keep only the **Top 100** players to prevent the KV object from growing too large.
-
-### KV Structure
-The KV namespace is named `RANKINGS`.
-Keys are formatted as: `ranking:YYYY-MM-DD:mode` (e.g., `ranking:2026-03-30:emoji`).
-The value is a stringified JSON array of the top 100 players.
 
 ---
 
@@ -132,7 +116,7 @@ npm run dev
 ```
 
 ### 3. Running with the Backend (Cloudflare Wrangler)
-If you need to test the API or Leaderboard system, you must run the app through Wrangler, Cloudflare's CLI. This simulates the Cloudflare Edge environment and a local KV namespace.
+If you need to test the API or Leaderboard system, you must run the app through Wrangler, Cloudflare's CLI.
 ```bash
 npm run dev:pages
 ```
@@ -141,10 +125,10 @@ npm run dev:pages
 
 ## 🎨 Design Philosophy
 
-This app is intentionally *not* designed like a generic SaaS dashboard or standard template. The visual language aims for a **storybook observatory** feel.
+This app is designed with a **Toy Story-inspired** vibrant aesthetic.
 
-- **Lighting & Depth:** Uses layered darkness with warm, cinematic light.
-- **Typography:** Relies on editorial serif typography to convey an emotional, magical tone.
-- **Layout:** Prefers asymmetrical framed panels instead of repetitive perfect grids.
-- **Motion:** Prioritizes soft, magical transitions over flashy gimmicks.
-- **Branding:** Creates a rich Disney-adjacent atmosphere without strictly copying official corporate assets.
+- **Lighting & Depth:** Uses bright, cinematic light with playful shadows.
+- **Typography:** Relies on **Fredoka** typography to convey a friendly, animated tone.
+- **Layout:** Prefers rounded panels with thick "toy-like" borders.
+- **Motion:** Prioritizes soft, bouncy transitions for a magical feel.
+- **Branding:** Creates a rich Disney Pixar-adjacent atmosphere.
