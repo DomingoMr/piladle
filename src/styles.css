@@ -2115,6 +2115,78 @@ img.character-avatar {
   color: #ED1C24;
 }
 
+.home-footer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 40px;
+}
+
+.home-footer-title {
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  max-width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5em;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.home-footer-title span:nth-child(1) {
+  color: var(--blue-300);
+}
+
+/* Red */
+.home-footer-title span:nth-child(2) {
+  color: var(--blue-200);
+}
+
+/* Yellow */
+.home-footer-title span:nth-child(3) {
+  color: var(--blue-400);
+}
+
+/* Green */
+.home-footer-title span:nth-child(4) {
+  color: #ffffff;
+}
+
+/* White */
+.home-footer-title span:nth-child(5) {
+  color: #00a8ff;
+}
+
+/* Blue */
+.home-footer-title span:nth-child(6) {
+  color: var(--blue-200);
+}
+
+/* Yellow again */
+
+.home-footer-logo-link {
+  transition: transform 0.2s ease;
+  display: block;
+  line-height: 0;
+}
+
+.home-footer-logo-link:hover {
+  transform: scale(1.05);
+}
+
+.home-footer-logo {
+  width: min(300px, 70vw);
+  height: auto;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
+}
+
 /* Global Ranking Modal */
 .ranking-modal {
   width: min(500px, 95vw);

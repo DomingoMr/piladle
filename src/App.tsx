@@ -84,6 +84,12 @@ const MODE_SEQUENCE: { id: ViewType; name: string; icon: string | React.ReactNod
   { id: 'silhouette', name: 'Silhouette', icon: '👤', subtitle: 'Whose silhouette is this?' },
   { id: 'song', name: 'Song', icon: '🎵', subtitle: 'Guess the song!' },
   {
+    id: 'mousdle' as any,
+    name: 'Mousdle',
+    icon: <img src="/icon_mousdle.png" alt="Mousdle" style={{ width: '80%', height: '80%', objectFit: 'contain', filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.3))' }} />,
+    subtitle: 'Try our Disney Classic guessing game!',
+  },
+  {
     id: 'card',
     name: 'Card',
     icon: <img src="/lorcana.png" alt="Lorcana" style={{ width: '65%', height: '65%', objectFit: 'contain', backgroundColor: 'transparent', filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.5))' }} />,
@@ -379,6 +385,7 @@ export default function App() {
                     const nextMode = MODE_SEQUENCE[currentIndex + 1];
                     if (!nextMode) return null;
                     const isCard = nextMode.id === 'card';
+                    const isMousdle = nextMode.id === ('mousdle' as any);
                     return (
                       <div style={{ width: 'min(400px, 100%)' }}>
                         <ModeButton
@@ -386,8 +393,14 @@ export default function App() {
                           name={nextMode.name}
                           subtitle={nextMode.subtitle}
                           icon={nextMode.icon}
-                          active={!isCard}
-                          onClick={() => navigateTo(nextMode.id)}
+                          active={isMousdle || !isCard}
+                          onClick={() => {
+                            if (isMousdle) {
+                              window.location.href = 'https://www.mousdle.com';
+                            } else {
+                              navigateTo(nextMode.id);
+                            }
+                          }}
                         />
                       </div>
                     );
