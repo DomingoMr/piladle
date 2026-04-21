@@ -3,6 +3,6 @@ compatibility_date = "2023-11-20"
 pages_build_output_dir = "dist"
 
 [[kv_namespaces]]
-binding = "PIXADLE_RANKINGS"
-id = "b166ba0a008843f589ebeea2c38bea6e""
+binding = "RANKINGS"
+id = "b166ba0a008843f589ebeea2c38bea6e"
 preview_id = "d5ec121200df44808ac09e5f4d06a5ac"
