@@ -7,6 +7,7 @@ export type RankingEntry = {
 };
 
 export type GameMode = 'classic' | 'emoji' | 'silhouette' | 'song' | 'card';
+export type RankingPeriod = 'daily' | 'weekly' | 'monthly';
 
 export function calculateScore(attempts: number): number {
   if (attempts === 0) return 0;
@@ -19,11 +20,12 @@ export function calculateScore(attempts: number): number {
 }
 
 export const ApiRankingService = {
-  async getRanking(mode: string): Promise<RankingEntry[]> {
+  async getRanking(mode: string, period: RankingPeriod = 'daily'): Promise<RankingEntry[]> {
     try {
       const date = getGameDateString();
-      console.log(`[Frontend] Fetching ranking for mode: ${mode}, date: ${date}`);
-      const res = await fetch(`/api/rankings?mode=${mode}&date=${date}`);
+      const params = new URLSearchParams({ mode, date, period });
+      console.log(`[Frontend] Fetching ranking for mode: ${mode}, period: ${period}, date: ${date}`);
+      const res = await fetch(`/api/rankings?${params.toString()}`);
       if (!res.ok) {
         const errorText = await res.text();
         console.error(`[Frontend] GET /api/rankings failed with status ${res.status}:`, errorText);

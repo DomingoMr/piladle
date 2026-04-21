@@ -10,6 +10,57 @@ export type RankingEntry = {
   playerId: string;
 };
 
+function parseDateString(dateStr: string): Date {
+  const [year, month, day] = dateStr.split('-').map(Number);
+  return new Date(Date.UTC(year, month - 1, day));
+}
+
+function formatDateUTC(date: Date): string {
+  const year = date.getUTCFullYear();
+  const month = String(date.getUTCMonth() + 1).padStart(2, '0');
+  const day = String(date.getUTCDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+function getPeriodDates(baseDate: string, period: 'weekly' | 'monthly'): string[] {
+  const base = parseDateString(baseDate);
+  let start: Date;
+
+  if (period === 'weekly') {
+    const dayOfWeek = base.getUTCDay();
+    const daysFromMonday = dayOfWeek === 0 ? 6 : dayOfWeek - 1;
+    start = new Date(base);
+    start.setUTCDate(base.getUTCDate() - daysFromMonday);
+  } else {
+    start = new Date(Date.UTC(base.getUTCFullYear(), base.getUTCMonth(), 1));
+  }
+
+  const dates: string[] = [];
+  const cursor = new Date(start);
+  while (cursor <= base) {
+    dates.push(formatDateUTC(cursor));
+    cursor.setUTCDate(cursor.getUTCDate() + 1);
+  }
+  return dates;
+}
+
+function mergeRankingsByTotalScore(rankingsByDate: RankingEntry[][]): RankingEntry[] {
+  const totals = new Map<string, RankingEntry>();
+  for (const dayRanking of rankingsByDate) {
+    for (const entry of dayRanking) {
+      const existing = totals.get(entry.playerId);
+      if (existing) {
+        existing.score += entry.score;
+        existing.name = entry.name;
+      } else {
+        totals.set(entry.playerId, { ...entry });
+      }
+    }
+  }
+
+  return [...totals.values()].sort((a, b) => b.score - a.score).slice(0, 100);
+}
+
 export const onRequestGet: PagesFunction<Env> = async (context) => {
   console.log("Starting GET request", context.request.url);
   try {
@@ -21,22 +72,39 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     const url = new URL(context.request.url);
     const mode = url.searchParams.get('mode') || 'classic';
     const date = url.searchParams.get('date') || new Date().toISOString().split('T')[0];
+    const period = (url.searchParams.get('period') || 'daily') as 'daily' | 'weekly' | 'monthly';
 
-    const key = `ranking:${date}:${mode}`;
-    console.log("Fetching key:", key);
-    
-    const data = await context.env.RANKINGS.get(key);
-
-    if (!data) {
-      console.log("No data found, returning empty array.");
-      return Response.json([]);
+    if (period !== 'daily' && period !== 'weekly' && period !== 'monthly') {
+      return Response.json({ error: 'Invalid period' }, { status: 400 });
     }
 
-    return new Response(data, {
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
+    if (period === 'daily') {
+      const key = `ranking:${date}:${mode}`;
+      console.log("Fetching key:", key);
+
+      const data = await context.env.RANKINGS.get(key);
+
+      if (!data) {
+        console.log("No data found, returning empty array.");
+        return Response.json([]);
+      }
+
+      return new Response(data, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+    }
+
+    const dates = getPeriodDates(date, period);
+    const keys = dates.map((d) => `ranking:${d}:${mode}`);
+    console.log(`Fetching ${keys.length} keys for ${period} ranking`);
+    const dataByDate = await Promise.all(keys.map((key) => context.env.RANKINGS.get(key)));
+    const parsedRankings = dataByDate
+      .filter((data): data is string => !!data)
+      .map((data) => JSON.parse(data) as RankingEntry[]);
+
+    return Response.json(mergeRankingsByTotalScore(parsedRankings));
   } catch (err: any) {
     console.error("GET Error:", err);
     return Response.json({ error: 'GET Internal Error', message: err.message, stack: err.stack }, { status: 500 });

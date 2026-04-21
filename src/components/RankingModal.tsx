@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ApiRankingService, RankingEntry } from '../lib/ranking';
+import { ApiRankingService, RankingEntry, RankingPeriod } from '../lib/ranking';
 
 interface RankingModalProps {
   isOpen: boolean;
@@ -12,16 +12,17 @@ interface RankingModalProps {
 export function RankingModal({ isOpen, onClose, userName, playerId }: RankingModalProps) {
   const [globalRanking, setGlobalRanking] = useState<RankingEntry[]>([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [activeTab, setActiveTab] = useState<RankingPeriod>('weekly');
 
   useEffect(() => {
     if (isOpen) {
       setIsLoading(true);
-      ApiRankingService.getRanking('global').then((rankings) => {
+      ApiRankingService.getRanking('global', activeTab).then((rankings) => {
         setGlobalRanking(rankings);
         setIsLoading(false);
       });
     }
-  }, [isOpen]);
+  }, [isOpen, activeTab]);
 
   if (!isOpen) return null;
 
@@ -43,13 +44,31 @@ export function RankingModal({ isOpen, onClose, userName, playerId }: RankingMod
         >
           <button className="hint-modal-close" onClick={onClose}>&times;</button>
           <h2 className="ranking-modal-title">🏆 Global Ranking 🏆</h2>
-          <p className="ranking-modal-subtitle">Today score across all daily modes</p>
+          <p className="ranking-modal-subtitle">Combined score across all game modes</p>
+          <div className="ranking-modal-tabs">
+            <button
+              className={`ranking-modal-tab ${activeTab === 'weekly' ? 'is-active' : ''}`}
+              onClick={() => setActiveTab('weekly')}
+              type="button"
+            >
+              Weekly
+            </button>
+            <button
+              className={`ranking-modal-tab ${activeTab === 'monthly' ? 'is-active' : ''}`}
+              onClick={() => setActiveTab('monthly')}
+              type="button"
+            >
+              Monthly
+            </button>
+          </div>
 
           <div className="ranking-modal-list">
             {isLoading ? (
               <div style={{ textAlign: 'center', color: 'var(--text-secondary)' }}>Loading online rankings...</div>
             ) : globalRanking.length === 0 ? (
-              <div style={{ textAlign: 'center', color: 'var(--text-secondary)' }}>No scores yet today!</div>
+              <div style={{ textAlign: 'center', color: 'var(--text-secondary)' }}>
+                No scores yet this {activeTab === 'weekly' ? 'week' : 'month'}!
+              </div>
             ) : (
               globalRanking.map((entry, index) => {
                 const isRealRank = index < 100; // showing all top 100

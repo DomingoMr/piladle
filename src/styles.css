@@ -2209,8 +2209,39 @@ img.character-avatar {
 .ranking-modal-subtitle {
   color: #666666;
   font-size: 1.1rem;
-  margin-bottom: 25px;
+  margin-bottom: 16px;
   font-weight: 600;
+}
+
+.ranking-modal-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.ranking-modal-tab {
+  border: 3px solid #ED1C24;
+  background: #f0f0f0;
+  color: #666666;
+  border-radius: 999px;
+  padding: 8px 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ranking-modal-tab:hover {
+  background: #FFE033;
+  border-color: #8DB532;
+  color: #8DB532;
+}
+
+.ranking-modal-tab.is-active {
+  background: #FFD700;
+  color: #ED1C24;
+  border-color: #ED1C24;
+  box-shadow: 0 4px 0 #D11018;
 }
 
 .ranking-modal-list {
