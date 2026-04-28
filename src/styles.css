@@ -2177,12 +2177,20 @@ img.character-avatar {
   line-height: 0;
 }
 
+.home-footer-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 .home-footer-logo-link:hover {
   transform: scale(1.05);
 }
 
 .home-footer-logo {
-  width: min(300px, 70vw);
+  width: min(300px, 40vw);
   height: auto;
   filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
 }

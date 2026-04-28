@@ -118,9 +118,14 @@ export function Home({ onSelectMode, onOpenReport, onOpenRanking }: HomeProps) {
         <h3 className="home-footer-title">
           <span>GUESS</span> <span>CHARACTERS</span> <span>FROM</span> <span>OTHER</span> <span>DISNEY</span> <span>FRANCHISES</span>
         </h3>
-        <a href="https://www.mousdle.com" className="home-footer-logo-link">
-          <img src="/logo_mousdle.png" alt="Mousdle" className="home-footer-logo" />
-        </a>
+        <div className="home-footer-logos">
+          <a href="https://www.mousdle.com" className="home-footer-logo-link">
+            <img src="/logo_mousdle.png" alt="Mousdle" className="home-footer-logo" />
+          </a>
+          <a href="https://www.hsmdle.com" className="home-footer-logo-link">
+            <img src="/logo_hsmdle.png" alt="Hsmdle" className="home-footer-logo" />
+          </a>
+        </div>
       </footer>
 
     </main>
